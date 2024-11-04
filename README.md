@@ -1,39 +1,46 @@
 # GAI_KMS_02
 Это прототип решения типа Agentic RAG (Retrieval-Augmented Generation) на основе LangGraph с данными из Jira, Confluence и Git.
-This is a prototype of a solution like 
-Agentic RAG (Retrieval-Augmented Generation) based on LangGraph with data from Jira and Confluence
 
-## Description
+
+## Описание
 
 ![GenAI_Powered_KMS_02.png](Images%2FGenAI_Powered_KMS_02.png)
 
-The "GenAI-Powered Knowledge Management System" is designed to streamline and optimize the management of knowledge within an organization using advanced AI capabilities.
+Система управления знаниями GenAI-Powered Knowledge Management System» предназначена для оптимизации управления 
+знаниями в организации с использованием передовых возможностей искусственного интеллекта.
 
-**1. User Interaction:**
+**1. Взаимодействие с пользователем (User Interaction):**
 
-* **User**: The process starts with the User who asks a question to the AI agents.
-* **GenAI_Agent**: The GenAI Agents are key components, receiving questions from the users and providing answers.
+* **User**: Процесс начинается с пользователя, который задает вопрос агентам AI.
+* **GenAI_Agent**: Агенты GenAI являются ключевыми компонентами, получающими вопросы от пользователей и 
+предоставляющими ответы.
 
-**2. Context Management:**
+**2. Управление контекстом (Context Management):**
 
-* **Data Context**: The GenAI Agents interact with the Data Context hosted on the Chat history. They both receive context data and update it as needed, ensuring up-to-date information flow.
+* **Контекст данных (Data Context)**: Агенты GenAI взаимодействуют с контекстом данных, размещенным в истории чата. 
+Они получают данные контекста и обновляют их по мере необходимости, обеспечивая актуальный поток информации.
 
-**3. Tool Utilization:**
+**3. Использование инструментов (Tool Utilization):**
 
-* **Search Tool & Summary Tool**: To provide accurate and relevant answers, GenAI Agents use the Search and Summary tools. These tools interact with Vector Databases to retrieve relevant chunks of information.
+* **Инструмент поиска и суммаризации (Search Tool & Summary Tool)**: Для предоставления точных и релевантных ответов 
+агенты GenAI используют инструменты поиска и суммаризации. Эти инструменты взаимодействуют с векторными базами данных 
+для извлечения релевантных фрагментов информации.
 
-**4. External Search:**
+**4. Внешний поиск (External Search):**
 
-* **WebSearch**: In addition to internal data, the GenAI Agents can perform web searches to gather additional information that may be relevant to the user's question.
+* **Вебпоиск (WebSearch)**: В дополнение к внутренним данным агенты GenAI могут выполнять веб-поиск для сбора 
+дополнительной информации, которая может иметь отношение к вопросу пользователя.
 
-**5. Data Ingestion:**
+**5. Загрузка данных (Data Ingestion):**
 
-* **Document Loaders**: These components populate Vector Databases with data from various source systems—Jira, Confluence, and Git, ensuring that the GenAI agents have a rich dataset to work with.
+* **Загрузчики документов (Document Loaders)**: Эти компоненты наполняют векторные базы данных из различных исходных 
+систем - Jira, Confluence и Git, обеспечивая агентам GenAI богатый набор данных для работы.
 
 
-This architecture enables seamless data integration and intelligent query resolution, leveraging both structured internal data and external resources to enhance knowledge management.
+Эта архитектура обеспечивает бесшовную интеграцию данных и интеллектуальное разрешение запросов, используя как 
+структурированные внутренние данные, так и внешние ресурсы для повышения эффективности управления знаниями.
 
-### Materials used:
+### Используемые материалы:
 
 Course: **AI Agents in LangGraph** https://learn.deeplearning.ai/courses/ai-agents-in-langgraph/lesson/1/introduction
 
@@ -45,16 +52,17 @@ LangGraph and RAG: https://github.com/langchain-ai/langgraph/tree/main/examples/
 
 Agentic RAG: https://github.com/langchain-ai/langgraph/blob/main/examples/rag/langgraph_agentic_rag.ipynb
 
-# Implementation
+# Реализация
 
-## 0.Synthetic data generation
+## 0.Генерация синтетических данных
 
-### 0.1. Generate synthetic data in JSON format to emulate Confluence data (_01_SyntheticDataGeneration_Confluence.py_)
+### 0.1. Генерация синтетических данных в формате JSON для эмуляции данных Confluence
+(_01_SyntheticDataGeneration_Confluence.py_)
 
-This module is designed to generate the requested number of synthetic data entries, 
-complete with metadata and descriptions, and save them to the specified JSON file.
+Этот модуль предназначен для генерации запрошенного количества записей синтетических данных, 
+с метаданными и описаниями, и сохранить их в указанном JSON-файле.
 
-The data is dedicated to the description of a fictitious software product called "Moon Flight System".
+Данные посвящены описанию вымышленного программного продукта под названием «Moon Flight System».
 
 ### 0.2. Generates synthetic data in CSV format to emulate Jira data (_02_SyntheticDataGeneration_Jira.py_)
 

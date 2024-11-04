@@ -1,0 +1,5 @@
+2024-11-04T14:54:38.633907+0300 DEBUG 01_SyntheticDataGeneration_Confluence............
+2024-11-04T14:54:53.290714+0300 DEBUG data_count = 100
+2024-11-04T14:56:10.963010+0300 DEBUG file_name = moon_flight_system_data_100.json
+2024-11-04T14:56:10.963010+0300 DEBUG Synthetic data saved to moon_flight_system_data_100.json
+2024-11-04T14:56:10.963010+0300 DEBUG 01_SyntheticDataGeneration_Confluence elapsed_time = 92.32910370826721 sec
