@@ -64,11 +64,11 @@ Agentic RAG: https://github.com/langchain-ai/langgraph/blob/main/examples/rag/la
 
 Данные посвящены описанию вымышленного программного продукта под названием «Moon Flight System».
 
-### 0.2. Generates synthetic data in CSV format to emulate Jira data (_02_SyntheticDataGeneration_Jira.py_)
+### 0.2. Генерация синтетических данных в формате CSV для эмуляции данных Jira (_02_SyntheticDataGeneration_Jira.py_)
 
-This module uses the Faker library to generate realistic random data for various fields.
+Этот модуль использует библиотеку Faker для генерации реалистичных случайных данных для различных полей.
 
-The data contains Jira ticket information for a fictitious software product called "Moon Flight System".
+Данные содержат информацию о тикетах Jira для вымышленного программного продукта под названием «Moon Flight System».
 
 ### 1.1. Creating a new Vector Knowledge Base for Jira (_11_Create_Vector_Db_Jira.py_)
 This module is designed to convert a CSV file containing Jira ticket data into a JSON format, 
