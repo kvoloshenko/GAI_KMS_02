@@ -70,20 +70,19 @@ Agentic RAG: https://github.com/langchain-ai/langgraph/blob/main/examples/rag/la
 
 Данные содержат информацию о тикетах Jira для вымышленного программного продукта под названием «Moon Flight System».
 
-### 1.1. Creating a new Vector Knowledge Base for Jira (_11_Create_Vector_Db_Jira.py_)
+### 1.1. Создание новой векторной базы знаний для Jira (_11_Create_Vector_Db_Jira.py_)
 This module is designed to convert a CSV file containing Jira ticket data into a JSON format, 
 splits the data into chunks, and creates a FAISS vector database for efficient retrieval. 
 
-**Summary**
+**Краткое описание**
 
-1. **CSV to JSON Conversion**: Converts a specified CSV file into a JSON file for more flexible data manipulation.
-2. **Document Loading**: Loads the JSON file and processes it using the Langchain `TextLoader`.
-3. **Text Splitting**: Splits the loaded text documents into manageable chunks using Langchain's `RecursiveCharacterTextSplitter`.
-4. **Database Creation**: Creates a FAISS vector database using the processed text chunks for efficient information retrieval and storage.
-
-This code performs a sequence of tasks, from reading and converting CSV data to JSON, 
-to splitting the text into manageable chunks, and finally storing this data in a vector database 
-for future retrieval and processing. Each step is logged for debugging and monitoring purposes.
+1. **Преобразование из CSV to JSON**: Преобразует указанный CSV-файл в JSON-файл для сохранении информации о заголовках 
+столбцов.
+2. **Загрузка документа**: Загружает JSON-файл и обрабатывает его с помощью Langchain `TextLoader`.
+3. **Разделение текста (Text Splitting)**: Разбивает загруженный текстовый документ на фрагменты (chunks) с помощью 
+Langchain's `RecursiveCharacterTextSplitter`.
+4. **Создание базы данных**: Создает векторную базу данных FAISS на основе обработанных текстовых фрагментов (chunks) 
+для эффективного поиска и хранения информации.
 
 ### 1.2. Creating a new Vector Knowledge Base for Confluence (_12_Create_Vector_Db_Confluence.py_)
 

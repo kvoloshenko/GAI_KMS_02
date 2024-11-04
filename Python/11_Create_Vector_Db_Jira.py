@@ -32,8 +32,8 @@ if __name__ == "__main__":
     logger.debug('11_Create_Vector_Db_Jira............')
 
     # Define file paths and convert CSV file to JSON file
-    csv_file_path = './Dataset/jira_tickets_10k.csv'
-    json_file_path = './Dataset/jira_tickets_10k.json'
+    csv_file_path = 'Dataset/jira_tickets_100.csv'
+    json_file_path = 'Dataset/jira_tickets_100.json'
     # Call the function to convert CSV to JSON
     csv_to_json(csv_file_path, json_file_path)
 

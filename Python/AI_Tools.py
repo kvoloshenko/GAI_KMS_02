@@ -1,43 +1,15 @@
 import os
 import re
 from dotenv import load_dotenv
-from openai import OpenAI
-from langchain_openai import OpenAIEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS # Import FAISS module
 from loguru import logger # Import logger
 import time
 # Import necessary modules for splitting text into chunks
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-# Import HuggingFaceEmbeddings
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.retrievers import BM25Retriever
-from langchain.retrievers import EnsembleRetriever
+from langchain_huggingface import HuggingFaceEmbeddings
 
-load_dotenv()
 
-# Loading values from the ".env" file
-API_KEY = os.environ.get("API_KEY")
-os.environ["OPENAI_API_KEY"] = API_KEY
-LL_MODEL='gpt-4o'
-client = OpenAI(api_key=API_KEY)
-
-# Function for requesting ChatGPT
-def gpt_request(user_content, system_content):
-    logger.debug('sgpt_request............')
-    start_time = time.time()
-    logger.debug(f'user_content={user_content}')
-    logger.debug(f'system_content={system_content}')
-    response = client.chat.completions.create(
-    model=LL_MODEL,
-    messages=[
-      {"role": "system", "content": system_content}, # <-- This is the system message that provides context to the model
-      {"role": "user", "content": user_content}     # <-- This is the user message for which the model will generate a response
-    ]
-    )
-    end_time = time.time()
-    elapsed_time = end_time - start_time
-    logger.debug(f'gpt_request = {elapsed_time} sec')
-    return response.choices[0].message.content
 
 # Function for Splitting documents
 # RecursiveCharacterTextSplitter see here:
@@ -57,9 +29,6 @@ def split_documents(documents):
     logger.debug(f'split_documents elapsed_time = {elapsed_time} sec')
     return source_chunks
 
-# Function for Getting Embeddings Model from HuggingFace
-# HuggingFaceEmbeddings see here:
-# https://api.python.langchain.com/en/latest/huggingface/embeddings/langchain_huggingface.embeddings.huggingface.HuggingFaceEmbeddings.html#
 def get_embeddings(type='cpu'):
   # Function to get the embeddings model from HuggingFace
     logger.debug('get_embeddings............')
@@ -81,8 +50,8 @@ def get_embeddings(type='cpu'):
 # Initialize embeddings
 # embeddings = get_embeddings(type='cuda')
 
-# Getting OpenAIEmbeddings
-embeddings = embeddings = OpenAIEmbeddings()
+# Getting Embeddings
+embeddings = get_embeddings()
 
 # Function for creating a new Vector Knowledge Base
 def create_db(source_chunks, embeddings, db_file_name):
@@ -129,24 +98,3 @@ def split_text(text, max_length):
 
     return '\n'.join(result)  # Return the result by concatenating the strings with a newline character.
 
-def get_message_content_ensemble(topic, db, source_chunks, k):
-    logger.debug('get_message_content_ensemble............')
-    start_time = time.time()
-    logger.debug(f'topic={topic}')
-    faiss_retriever = db.as_retriever(search_kwargs={"k": k})
-    bm25_retriever = BM25Retriever.from_documents(source_chunks)
-    bm25_retriever.k = k
-    ensemble_retriever = EnsembleRetriever(retrievers=[bm25_retriever, faiss_retriever],
-                                           weights=[0.5, 0.5])
-
-    docs = ensemble_retriever.get_relevant_documents(topic)
-
-    message_content = re.sub(r'\n{2}', ' ', '\n '.join(
-      [f'\n#### {i + 1} Relevant chunk ####\n' + str(doc.metadata) + '\n' + split_text(doc.page_content, 80) + '\n' for
-       i, doc in
-       enumerate(docs)]))
-    logger.debug(f'message_content={message_content}')
-    end_time = time.time()
-    elapsed_time = end_time - start_time
-    logger.debug(f'get_message_content_ensemble elapsed_time = {elapsed_time} sec')
-    return message_content
