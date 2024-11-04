@@ -3,8 +3,6 @@ import AI_Tools as tls                        # Custom AI tools for splitting do
 from loguru import logger                     # Logging utility for better logging management
 import json                                   # Import json modules
 from langchain_core.documents import Document                      # Langchain class for document handling
-from langchain_community.document_loaders import TextLoader        # Langchain class for loading texts
-from langchain.text_splitter import RecursiveCharacterTextSplitter # Langchain class for splitting text
 
 if __name__ == "__main__":
     # Setting up the logger to write logs to a file with rotation and compression
@@ -13,7 +11,7 @@ if __name__ == "__main__":
     logger.debug('12_Create_Vector_Db_Confluence............')
 
     # Load JSON content from the file
-    file_name = './Dataset/moon_flight_system_data_10k.json'
+    file_name = './Dataset/moon_flight_system_data_100.json'
     with open(file_name, 'r') as f:
         confluence_data = json.load(f)
 

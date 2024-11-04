@@ -71,8 +71,8 @@ Agentic RAG: https://github.com/langchain-ai/langgraph/blob/main/examples/rag/la
 Данные содержат информацию о тикетах Jira для вымышленного программного продукта под названием «Moon Flight System».
 
 ### 1.1. Создание новой векторной базы знаний для Jira (_11_Create_Vector_Db_Jira.py_)
-This module is designed to convert a CSV file containing Jira ticket data into a JSON format, 
-splits the data into chunks, and creates a FAISS vector database for efficient retrieval. 
+Этот модуль предназначен для преобразования CSV-файла с данными тикетов Jira в формат JSON, 
+разбивает данные на фрагменты и создает векторную базу данных FAISS для эффективного поиска. 
 
 **Краткое описание**
 
@@ -84,17 +84,17 @@ Langchain's `RecursiveCharacterTextSplitter`.
 4. **Создание базы данных**: Создает векторную базу данных FAISS на основе обработанных текстовых фрагментов (chunks) 
 для эффективного поиска и хранения информации.
 
-### 1.2. Creating a new Vector Knowledge Base for Confluence (_12_Create_Vector_Db_Confluence.py_)
+### 1.2. CСоздание новой векторной базы знаний для Confluence (_12_Create_Vector_Db_Confluence.py_)
 
-This Python module processes a JSON file containing Confluence data, splits the data into chunks, 
-and creates a FAISS vector database for efficient retrieval. 
+Этот Python-модуль обрабатывает JSON-файл, содержащий данные Confluence, разбивает их на фрагменты, 
+и создает векторную базу данных FAISS для эффективного поиска. 
 
-**Summary**
-- **Logging Setup**: The script initializes a logger that writes to a file with specific settings.
-- **JSON Data Loading**: Reads Confluence data from a JSON file.
-- **Document Creation**: Transforms JSON data into `Document` objects compatible with Langchain.
-- **Chunk Splitting**: Utilizes a custom tool to split the documents into smaller chunks for better processing.
-- **Database Creation**: Creates a FAISS vector database from the document chunks for efficient data retrieval.
+**Краткое описание**
+
+- **Загрузка данных в формате JSON**: Считывает данные Confluence из файла JSON.
+- **Создание документа**: Преобразует JSON-данные в объекты `Document`, совместимые с Langchain.
+- **Разделение текста (Text Splitting)**: Разбивает документ на фрагменты (chunks).
+- **Создание базы данных**: Создает векторную базу данных FAISS из фрагментов документов для эффективного поиска данных.
 
 ###  1.3. Creating a new Vector Knowledge Base for Git (_13_Create_Vector_Db__Git.py_)
 This Python module aims to clone a Git repository, load specific files from it, 
