@@ -84,7 +84,7 @@ Langchain's `RecursiveCharacterTextSplitter`.
 4. **Создание базы данных**: Создает векторную базу данных FAISS на основе обработанных текстовых фрагментов (chunks) 
 для эффективного поиска и хранения информации.
 
-### 1.2. CСоздание новой векторной базы знаний для Confluence (_12_Create_Vector_Db_Confluence.py_)
+### 1.2. Создание новой векторной базы знаний для Confluence (_12_Create_Vector_Db_Confluence.py_)
 
 Этот Python-модуль обрабатывает JSON-файл, содержащий данные Confluence, разбивает их на фрагменты, 
 и создает векторную базу данных FAISS для эффективного поиска. 
@@ -96,23 +96,17 @@ Langchain's `RecursiveCharacterTextSplitter`.
 - **Разделение текста (Text Splitting)**: Разбивает документ на фрагменты (chunks).
 - **Создание базы данных**: Создает векторную базу данных FAISS из фрагментов документов для эффективного поиска данных.
 
-###  1.3. Creating a new Vector Knowledge Base for Git (_13_Create_Vector_Db__Git.py_)
-This Python module aims to clone a Git repository, load specific files from it, 
-split document data into manageable chunks, and create a vector-based knowledge base using 
-Natural Language Processing (NLP) tools. 
+###  1.3. Создание новой базы знаний для Git (_13_Create_Vector_Db__Git.py_)
+Этот Python-модуль предназначен для клонирования Git-репозитория, загрузки из него определенных файлов, 
+разделение данных на фрагменты (chunks) и создания векторной базы знаний.  
 
-**Summary**
--  **Logging Configuration**: Sets up `loguru` to log debug information to a specified file with rotation and compression settings.
--  **Time Tracking**: Records the start and end time of the process to compute the elapsed time.
--  **Git Repository Cloning**: Clones a specific Git repository from GitHub to a local directory.
--  **Document Loading**: Uses a custom `GitLoader` to load documents from the cloned repository.
--  **Filtering**: Filters the loaded documents to include only Python files.
--  **Document Splitting**: Splits the contents of the loaded documents into chunks using a custom function.
--  **Vector Database Creation**: Creates a vector-based knowledge database from the document chunks using tools provided in the `AI_Tools` module.
--  **Logging Execution Time**: Logs the time taken to execute the entire process.
-
-This process establishes a reproducible and logged method to create a vector knowledge base from a specific Git 
-repository, focusing on Python files.
+**Краткое описание**
+- **Клонирование репозитория Git**: Клонирует определенный Git-репозиторий с GitHub в локальную директорию.
+- **Загрузка документов**: Использует `GitLoader` для загрузки документов из клонированного репозитория.
+- **Фильтрация**: Фильтрует загруженные документы, чтобы использовать только файлы Python.
+- **Разделение текста (Text Splitting)**: Разделяет содержимое загруженных документов на фрагменты (chunks).
+- **Создание векторной базы данных**: Создает векторную базу данных FAISS из фрагментов документов для эффективного 
+поиска данных.
 
 ### 2.1. Simple RAG for Jira (_21_RAG_Jira.py_)
 This Python module is designed to process and retrieve specific information from a dataset of Jira tickets 

@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     # Clone an existing Git repository from the URL to a specified directory on disk
     repo = Repo.clone_from('https://github.com/kvoloshenko/Kind_Doctor_TG_Bot_01.git',
-                           to_path="./Git_Kind_Doctor")
+                           to_path="Git_Kind_Doctor")
 
     # Initialize branch variable to 'master'
     branch = "master"
@@ -24,14 +24,14 @@ if __name__ == "__main__":
     branch = repo.head.reference
 
     # Load all documents from the repository
-    loader = GitLoader(repo_path="./Git_Kind_Doctor/", branch=branch)
+    loader = GitLoader(repo_path="Git_Kind_Doctor/", branch=branch)
     data = loader.load()
     logger.debug(len(data))
     logger.debug(data[0])
 
     # Filtering files to load only Python files
     loader = GitLoader(
-        repo_path="./Git_Kind_Doctor",
+        repo_path="Git_Kind_Doctor",
         file_filter=lambda file_path: file_path.endswith(".py"),
     )
     # Load filtered documents
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     git_source_chunks = tls.split_documents(docs)
 
     # Creating a vector-based knowledge base from the document chunks
-    git_db_file_name = './Db/Git_Kind_Doctor'
+    git_db_file_name = 'Db/Git_Kind_Doctor'
     git_db = tls.create_db(git_source_chunks, tls.embeddings, git_db_file_name)
 
     # Record the end time of the process and calculate the elapsed time
