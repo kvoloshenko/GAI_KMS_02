@@ -2,6 +2,7 @@
 Полностью локальная версия для использование вместе с LM Studio
 Используется модель `bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf`
 
+![LM_Studio_01.png](Images/LM_Studio_01.png)
 
 ## Описание
 Это прототип решения типа Agentic RAG (Retrieval-Augmented Generation) на основе LangGraph с данными из Jira, Confluence и Git.
