@@ -1,8 +1,10 @@
 # GAI_KMS_02
-Это прототип решения типа Agentic RAG (Retrieval-Augmented Generation) на основе LangGraph с данными из Jira, Confluence и Git.
+Полностью локальная версия для использование вместе с LM Studio
+Используется модель `bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf`
 
 
 ## Описание
+Это прототип решения типа Agentic RAG (Retrieval-Augmented Generation) на основе LangGraph с данными из Jira, Confluence и Git.
 
 ![GenAI_Powered_KMS_02.png](Images%2FGenAI_Powered_KMS_02.png)
 
@@ -122,13 +124,6 @@ Langchain's `RecursiveCharacterTextSplitter`.
 Этот модуль позволяет извлекать и обрабатывать исходные файлы Python из векторной базы знаний клонированого 
 Git-репозитория. 
 
-
-### 2.4. WebSearch (_24_WebSearch.py_)
-This module performs a web search using DuckDuckGo's search engine. 
-It utilizes the `DuckDuckGoSearchRun` class from the `langchain_community.tools` package to execute the search query. 
-
-This module is suitable for scenarios where automated web search and detailed logging of the search process are required. 
-It can be used in automation tasks, data gathering, and performance analysis.
 
 ### 3.0. Agents (_30_Agents.py_)
 

@@ -1,0 +1,125 @@
+2024-11-27T23:38:32.847321+0300 DEBUG 23_RAG_Git............
+2024-11-27T23:38:32.847321+0300 DEBUG get_message_content_ensemble............
+2024-11-27T23:38:32.847321+0300 DEBUG topic=I'm looking for where in the source code was defined the file name where is the prompt
+2024-11-27T23:38:33.347267+0300 DEBUG message_content=
+#### 1 Relevant chunk ####
+{'source': 'Python\\db_tools_01.py', 'file_path': 'Python\\db_tools_01.py', 'file_name': 'db_tools_01.py', 'file_type': '.py'}
+db_file_name = db_dir_name + 'db_file_' + ba return db_file_name def
+get_knowledge_base_file_name(ba, db_dir_name): """ Getting the knowledge base
+file name @param ba: Billing account name @return: The index db file name """
+db_file_name = db_dir_name + 'knowledge_base_' + ba + '.txt' return db_file_name
+def get_prompt_file_name(ba, db_dir_name): """ Getting the prompt file name
+@param ba: Billing account name  
+#### 2 Relevant chunk ####
+{'source': 'Python\\db_tools_01.py', 'file_path': 'Python\\db_tools_01.py', 'file_name': 'db_tools_01.py', 'file_type': '.py'}
+@return: The index db file name """ db_file_name = db_dir_name + 'prompt_' + ba
++ '.txt' return db_file_name def get_source_chunks(knowledge_base_text,
+chunk_size): """ Getting all source chunks for the text knowledge base @param
+knowledge_base_text: @param chunk_size: @return: source_chunks, chunk_num """
+source_chunks = [] splitter = CharacterTextSplitter(separator="\n",
+chunk_size=chunk_size, chunk_overlap=0)  
+#### 3 Relevant chunk ####
+{'source': 'Python\\gpt_funcation_doctor_01.py', 'file_path': 'Python\\gpt_funcation_doctor_01.py', 'file_name': 'gpt_funcation_doctor_01.py', 'file_type': '.py'}
+tls.write_to_file('user_id;user_name;question;answer', csvfilename) HISTORY = {}
+# Словарь для хранения памяти def get_prompt_txt(type=DATA_FILES, ba=BA,
+SYSTEM_DOC_URL=SYSTEM_DOC_URL): """ Getting the prompt text @param type: @param
+ba: @param system_doc_url: @return: The prompt text """ prompt_file_name =
+dbt.get_prompt_file_name(ba, DB_DIR_NAME)
+logger.debug(f'prompt_file_name={prompt_file_name}') if type == 'local':  
+#### 4 Relevant chunk ####
+{'source': 'Python\\db_tools_01.py', 'file_path': 'Python\\db_tools_01.py', 'file_name': 'db_tools_01.py', 'file_type': '.py'}
+Creating the index db and it's db file from the text source @param
+knowledge_base_text: @param ba: @return: """ #
+logger.debug(f'knowledge_base_text={knowledge_base_text}') db_file_name =
+get_db_file_name(ba, db_dir_name) logger.debug(f'db_file_name={db_file_name}')
+source_chunks, chunk_num = get_source_chunks(knowledge_base_text, chunk_size)
+logger.debug(f'chunk_num={chunk_num}') try:  
+#### 5 Relevant chunk ####
+{'source': 'Python\\db_tools_01.py', 'file_path': 'Python\\db_tools_01.py', 'file_name': 'db_tools_01.py', 'file_type': '.py'}
+import os from langchain.text_splitter import CharacterTextSplitter from
+langchain.docstore.document import Document from
+langchain_community.vectorstores import FAISS import re from tools_01 import
+get_google_url, load_text, write_to_file, load_document_text from loguru import
+logger def get_db_file_name(ba, db_dir_name): """ Getting the index db file name
+@param ba: Billing account name @return: The index db file name """  
+#### 6 Relevant chunk ####
+{'source': 'Python\\config.py', 'file_path': 'Python\\config.py', 'file_name': 'config.py', 'file_type': '.py'}
+BOT_START_REPLY = 'Добрый день! Я - Добродоктор, Ваш виртуальный консультант.
+Чем могу помочь?' DATA_FILES = 'local' DATA_REGISTRATION_FILE =
+'Reg_data/data_registration_file.csv'
+
+2024-11-27T23:38:33.347267+0300 DEBUG get_message_content_ensemble elapsed_time = 0.49994540214538574 sec
+2024-11-27T23:38:33.347267+0300 DEBUG sgpt_request............
+2024-11-27T23:38:33.347267+0300 DEBUG user_content=I'm looking for where in the source code was defined the file name where is the prompt. The data is here: 
+#### 1 Relevant chunk ####
+{'source': 'Python\\db_tools_01.py', 'file_path': 'Python\\db_tools_01.py', 'file_name': 'db_tools_01.py', 'file_type': '.py'}
+db_file_name = db_dir_name + 'db_file_' + ba return db_file_name def
+get_knowledge_base_file_name(ba, db_dir_name): """ Getting the knowledge base
+file name @param ba: Billing account name @return: The index db file name """
+db_file_name = db_dir_name + 'knowledge_base_' + ba + '.txt' return db_file_name
+def get_prompt_file_name(ba, db_dir_name): """ Getting the prompt file name
+@param ba: Billing account name  
+#### 2 Relevant chunk ####
+{'source': 'Python\\db_tools_01.py', 'file_path': 'Python\\db_tools_01.py', 'file_name': 'db_tools_01.py', 'file_type': '.py'}
+@return: The index db file name """ db_file_name = db_dir_name + 'prompt_' + ba
++ '.txt' return db_file_name def get_source_chunks(knowledge_base_text,
+chunk_size): """ Getting all source chunks for the text knowledge base @param
+knowledge_base_text: @param chunk_size: @return: source_chunks, chunk_num """
+source_chunks = [] splitter = CharacterTextSplitter(separator="\n",
+chunk_size=chunk_size, chunk_overlap=0)  
+#### 3 Relevant chunk ####
+{'source': 'Python\\gpt_funcation_doctor_01.py', 'file_path': 'Python\\gpt_funcation_doctor_01.py', 'file_name': 'gpt_funcation_doctor_01.py', 'file_type': '.py'}
+tls.write_to_file('user_id;user_name;question;answer', csvfilename) HISTORY = {}
+# Словарь для хранения памяти def get_prompt_txt(type=DATA_FILES, ba=BA,
+SYSTEM_DOC_URL=SYSTEM_DOC_URL): """ Getting the prompt text @param type: @param
+ba: @param system_doc_url: @return: The prompt text """ prompt_file_name =
+dbt.get_prompt_file_name(ba, DB_DIR_NAME)
+logger.debug(f'prompt_file_name={prompt_file_name}') if type == 'local':  
+#### 4 Relevant chunk ####
+{'source': 'Python\\db_tools_01.py', 'file_path': 'Python\\db_tools_01.py', 'file_name': 'db_tools_01.py', 'file_type': '.py'}
+Creating the index db and it's db file from the text source @param
+knowledge_base_text: @param ba: @return: """ #
+logger.debug(f'knowledge_base_text={knowledge_base_text}') db_file_name =
+get_db_file_name(ba, db_dir_name) logger.debug(f'db_file_name={db_file_name}')
+source_chunks, chunk_num = get_source_chunks(knowledge_base_text, chunk_size)
+logger.debug(f'chunk_num={chunk_num}') try:  
+#### 5 Relevant chunk ####
+{'source': 'Python\\db_tools_01.py', 'file_path': 'Python\\db_tools_01.py', 'file_name': 'db_tools_01.py', 'file_type': '.py'}
+import os from langchain.text_splitter import CharacterTextSplitter from
+langchain.docstore.document import Document from
+langchain_community.vectorstores import FAISS import re from tools_01 import
+get_google_url, load_text, write_to_file, load_document_text from loguru import
+logger def get_db_file_name(ba, db_dir_name): """ Getting the index db file name
+@param ba: Billing account name @return: The index db file name """  
+#### 6 Relevant chunk ####
+{'source': 'Python\\config.py', 'file_path': 'Python\\config.py', 'file_name': 'config.py', 'file_type': '.py'}
+BOT_START_REPLY = 'Добрый день! Я - Добродоктор, Ваш виртуальный консультант.
+Чем могу помочь?' DATA_FILES = 'local' DATA_REGISTRATION_FILE =
+'Reg_data/data_registration_file.csv'
+
+2024-11-27T23:38:33.362892+0300 DEBUG system_content=You are a useful assistant.
+    You have the source code from Git.
+2024-11-27T23:38:41.362851+0300 DEBUG gpt_request = 8.015584707260132 sec
+2024-11-27T23:38:41.362851+0300 DEBUG response=The file name where the prompt is defined can be found in two places:
+
+1. `get_prompt_file_name` function:
+   ```python
+def get_prompt_file_name(ba, db_dir_name): """ Getting the prompt file name
+@param ba: Billing account name  
+db_file_name = db_dir_name + 'prompt_' + ba
++ '.txt' return db_file_name
+```
+2. `get_source_chunks` function (not directly related to prompts, but shows how a similar pattern is used):
+   ```python
+def get_source_chunks(knowledge_base_text,
+chunk_size): """ Getting all source chunks for the text knowledge base @param
+knowledge_base_text: @param chunk_size: @return: source_chunks, chunk_num """
+db_file_name = db_dir_name + 'prompt_' + ba
++ '.txt' # commented out line
+```
+   Although this is commented out in the provided code snippet.
+
+However, based on your data, I assume you are looking for the `get_prompt_file_name` function or a similar pattern. If that's the case, it can be found in `db_tools_01.py`. 
+
+If you want to find all occurrences of file names in the source code, you might need to search through the entire source code.
+2024-11-27T23:38:41.362851+0300 DEBUG 23_RAG_Git elapsed_time = 8.515530109405518 sec

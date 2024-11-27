@@ -1,0 +1,148 @@
+2024-11-27T23:37:34.816000+0300 DEBUG 22_RAG_Confluence............
+2024-11-27T23:37:34.816000+0300 DEBUG get_message_content_ensemble............
+2024-11-27T23:37:34.816000+0300 DEBUG topic=How to install Moon Flight System? Give me the main details.
+2024-11-27T23:37:35.534807+0300 DEBUG message_content=
+#### 1 Relevant chunk ####
+{'title': 'Hardware and Software Requirements', 'id': '282084000', 'source': 'https://moonflightsystem.com/docs/282084000'}
+Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer
+script with sudo privileges. Follow the prompts to complete the installation
+process.  
+#### 2 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run
+the installer script with sudo privileges. Follow the prompts to complete the
+installation process." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282093724", "source":
+"https://moonflightsystem.com/docs/282093724" },  
+#### 3 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run
+the installer script with sudo privileges. Follow the prompts to complete the
+installation process." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282093790", "source":
+"https://moonflightsystem.com/docs/282093790" },  
+#### 4 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run
+the installer script with sudo privileges. Follow the prompts to complete the
+installation process." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282089173", "source":
+"https://moonflightsystem.com/docs/282089173" },
+
+2024-11-27T23:37:35.534807+0300 DEBUG get_message_content_ensemble elapsed_time = 0.7188069820404053 sec
+2024-11-27T23:37:35.534807+0300 DEBUG sgpt_request............
+2024-11-27T23:37:35.534807+0300 DEBUG user_content=How to install Moon Flight System? Give me the main details.. The data is here: 
+#### 1 Relevant chunk ####
+{'title': 'Hardware and Software Requirements', 'id': '282084000', 'source': 'https://moonflightsystem.com/docs/282084000'}
+Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer
+script with sudo privileges. Follow the prompts to complete the installation
+process.  
+#### 2 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run
+the installer script with sudo privileges. Follow the prompts to complete the
+installation process." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282093724", "source":
+"https://moonflightsystem.com/docs/282093724" },  
+#### 3 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run
+the installer script with sudo privileges. Follow the prompts to complete the
+installation process." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282093790", "source":
+"https://moonflightsystem.com/docs/282093790" },  
+#### 4 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run
+the installer script with sudo privileges. Follow the prompts to complete the
+installation process." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282089173", "source":
+"https://moonflightsystem.com/docs/282089173" },
+
+2024-11-27T23:37:35.534807+0300 DEBUG system_content=You are a useful assistant.
+    You have data on the necessary docs in Confluence.
+2024-11-27T23:37:37.737933+0300 DEBUG gpt_request = 2.2031264305114746 sec
+2024-11-27T23:37:37.737933+0300 DEBUG response=Based on the provided data, here are the main details on how to install the Moon Flight System:
+
+**Hardware and Software Requirements**
+
+* Unzip the MFS-2024.1.zip file
+* Run the installer script with **sudo privileges**
+* Follow the prompts to complete the installation process
+
+That's it!
+2024-11-27T23:37:37.737933+0300 DEBUG 22_RAG_Confluence elapsed_time = 2.92193341255188 sec
+2024-11-27T23:50:22.394128+0300 DEBUG 22_RAG_Confluence............
+2024-11-27T23:50:22.394128+0300 DEBUG get_message_content_ensemble............
+2024-11-27T23:50:22.394128+0300 DEBUG topic=How to install Moon Flight System? Give me the main details.
+2024-11-27T23:50:23.097234+0300 DEBUG message_content=
+#### 1 Relevant chunk ####
+{'title': 'Hardware and Software Requirements', 'id': '282084000', 'source': 'https://moonflightsystem.com/docs/282084000'}
+Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer
+script with sudo privileges. Follow the prompts to complete the installation
+process.  
+#### 2 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run
+the installer script with sudo privileges. Follow the prompts to complete the
+installation process." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282093724", "source":
+"https://moonflightsystem.com/docs/282093724" },  
+#### 3 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run
+the installer script with sudo privileges. Follow the prompts to complete the
+installation process." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282093790", "source":
+"https://moonflightsystem.com/docs/282093790" },  
+#### 4 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run
+the installer script with sudo privileges. Follow the prompts to complete the
+installation process." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282089173", "source":
+"https://moonflightsystem.com/docs/282089173" },
+
+2024-11-27T23:50:23.097234+0300 DEBUG get_message_content_ensemble elapsed_time = 0.7031066417694092 sec
+2024-11-27T23:50:23.112859+0300 DEBUG sgpt_request............
+2024-11-27T23:50:23.112859+0300 DEBUG user_content=How to install Moon Flight System? Give me the main details.. The data is here: 
+#### 1 Relevant chunk ####
+{'title': 'Hardware and Software Requirements', 'id': '282084000', 'source': 'https://moonflightsystem.com/docs/282084000'}
+Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer
+script with sudo privileges. Follow the prompts to complete the installation
+process.  
+#### 2 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run
+the installer script with sudo privileges. Follow the prompts to complete the
+installation process." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282093724", "source":
+"https://moonflightsystem.com/docs/282093724" },  
+#### 3 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run
+the installer script with sudo privileges. Follow the prompts to complete the
+installation process." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282093790", "source":
+"https://moonflightsystem.com/docs/282093790" },  
+#### 4 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run
+the installer script with sudo privileges. Follow the prompts to complete the
+installation process." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282089173", "source":
+"https://moonflightsystem.com/docs/282089173" },
+
+2024-11-27T23:50:23.112859+0300 DEBUG system_content=You are a useful assistant.
+    You have data on the necessary docs in Confluence.
+2024-11-27T23:50:25.425401+0300 DEBUG gpt_request = 2.3125412464141846 sec
+2024-11-27T23:50:25.425401+0300 DEBUG response=Here are the main details on how to install Moon Flight System:
+
+**Hardware and Software Requirements**
+
+* Unzip the MFS-2024.1.zip file
+* Run the installer script with **sudo privileges**
+* Follow the prompts to complete the installation process
+
+That's it! Let me know if you need any further assistance.
+2024-11-27T23:50:25.425401+0300 DEBUG 22_RAG_Confluence elapsed_time = 3.0312728881835938 sec
