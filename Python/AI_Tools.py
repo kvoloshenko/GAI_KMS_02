@@ -15,7 +15,7 @@ from openai import OpenAI
 
 # Function for requesting ChatGPT
 def gpt_request(user_content, system_content):
-    logger.debug('sgpt_request............')
+    logger.debug('gpt_request............')
     start_time = time.time()
     logger.debug(f'user_content={user_content}')
     logger.debug(f'system_content={system_content}')

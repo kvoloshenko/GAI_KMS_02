@@ -73,7 +73,12 @@ def grade_documents(state) -> Literal["generate", "rewrite"]:
         binary_score: str = Field(description="Relevance score 'yes' or 'no'")
 
     # Load the model and chain with the prompt
-    model = ChatOpenAI(temperature=0, model="gpt-4o", streaming=True)
+    # model = ChatOpenAI(temperature=0, model="gpt-4o", streaming=True)
+    model = ChatOpenAI(
+        base_url="http://localhost:1234/v1",
+        temperature=0,
+        api_key="not-needed"
+    )
 
     # LLM with tool and validation
     llm_with_tool = model.with_structured_output(grade)
@@ -128,7 +133,12 @@ def agent(state):
     """
     print("---CALL AGENT---")
     messages = state["messages"]
-    model = ChatOpenAI(temperature=0, streaming=True, model="gpt-4o")
+    # model = ChatOpenAI(temperature=0, streaming=True, model="gpt-4o")
+    model = ChatOpenAI(
+        base_url="http://localhost:1234/v1",
+        temperature=0,
+        api_key="not-needed"
+    )
     model = model.bind_tools(tools)
     response = model.invoke(messages)
     # We return a list, because this will get added to the existing list
@@ -164,7 +174,12 @@ def rewrite(state):
     ]
 
     # Grader
-    model = ChatOpenAI(temperature=0, model="gpt-4o", streaming=True)
+    # model = ChatOpenAI(temperature=0, model="gpt-4o", streaming=True)
+    model = ChatOpenAI(
+        base_url="http://localhost:1234/v1",
+        temperature=0,
+        api_key="not-needed"
+    )
     response = model.invoke(msg)
     return {"messages": [response]}
 
@@ -191,7 +206,12 @@ def generate(state):
     prompt = hub.pull("rlm/rag-prompt")
 
     # LLM
-    llm = ChatOpenAI(model_name="gpt-4o", temperature=0, streaming=True)
+    # llm = ChatOpenAI(model_name="gpt-4o", temperature=0, streaming=True)
+    llm = ChatOpenAI(
+        base_url="http://localhost:1234/v1",
+        temperature=0,
+        api_key="not-needed"
+    )
 
     # Post-processing
     def format_docs(docs):

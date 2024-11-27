@@ -36,7 +36,7 @@ if __name__ == "__main__":
     # Define the topic for query, which is about installing the moon flight system
     confluence_topic = "How to install Moon Flight System? Give me the main details."
     # Get the content related to the query using an ensemble method for message content retrieval
-    confluence_message_content = tls.get_message_content_ensemble(confluence_topic, confluence_db, confluence_source_chunks, 10)
+    confluence_message_content = tls.get_message_content_ensemble(confluence_topic, confluence_db, confluence_source_chunks, 3)
 
     # Define the system content for the assistant
     system_content = '''You are a useful assistant.
