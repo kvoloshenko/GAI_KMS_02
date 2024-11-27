@@ -108,82 +108,19 @@ Langchain's `RecursiveCharacterTextSplitter`.
 - **Создание векторной базы данных**: Создает векторную базу данных FAISS из фрагментов документов для эффективного 
 поиска данных.
 
-### 2.1. Simple RAG for Jira (_21_RAG_Jira.py_)
-This Python module is designed to process and retrieve specific information from a dataset of Jira tickets 
-using a vector-based knowledge system. 
+### 2.1. Простой RAG для Jira (_21_RAG_Jira.py_)
+Этот модуль предназначен для обработки и извлечения определенной информации из набора данных тикетов Jira 
+используя векторную базу знаний.
 
-It involves loading the dataset, splitting the text for easier processing, loading an existing knowledge base, 
-and then querying that knowledge base to extract relevant information.
 
-**Summary**
+### 2.2. Простой RAG для Confluence (_22_RAG_Confluence.py_)
+Этот модуль предназначен для обработки и извлечения определенной информации из системы Confluence используя векторную 
+базу знаний.
 
-1. **Imports and Initial Setup**:
-    - Import necessary libraries and modules: `re`, custom module `AI_Tools` as `tls`, `logger` from `loguru` for logging, `TextLoader` and `RecursiveCharacterTextSplitter` from `Langchain`.
-
-2. **Loading Data**:
-    - Load a JSON file containing Jira ticket data using `Langchain`'s `TextLoader` with UTF-8 encoding.
-    - `json_file_path` specifies the path to the JSON file containing the Jira tickets data.
-  
-3. **Text Splitting**:
-    - Split the loaded JSON documents into smaller chunks of text for easier processing using `RecursiveCharacterTextSplitter`.
-    - The `chunk_size` is set to 512 characters and there is no overlap between chunks.
-  
-4. **Loading Knowledge Base**:
-    - Load an existing vector knowledge base of Jira data using a custom tool from `AI_Tools`.
-    - The `jira_db_file_name` specifies the file name for the vector knowledge base.
-  
-5. **Main Execution Block**:
-    - Configure the logger to log debug information to a specific file with file rotation after it reaches 100 KB and compression into zip format.
-    - Log a debug statement to indicate the start of the process.
-  
-6. **Generating Query and Response**:
-    - Define a query topic for retrieving specific Jira tickets.
-    - Use the custom tool to generate a message content based on the query topic, the loaded knowledge base, and the split text chunks.
-    - Define a system content and user content for the AI request.
-    - Send a message content request to a GPT-based system to get a formatted response and log the response.
-
-This module is useful for anyone needing to process large collections of textual data and search for specific topics or
-items within that data using vector-based retrieval techniques, particularly in the context of Jira tickets.
-
-### 2.2. Simple RAG for Confluence (_22_RAG_Confluence.py_)
-This module is designed to process a JSON dataset containing information from Confluence system, 
-split the content into manageable chunks, and interact with a vector knowledge base for 
-retrieval-augmented generation (RAG). 
-
-It integrates various tools and libraries to load the data, split it into text chunks, 
-and query a pre-existing vector database to answer user queries to the data from Confluence.
-
-#### 2.2.1. Description
-The logic of this module is similar to the Simple RAG for Jira module described above.
 
 ### 2.3. (_23_RAG_Git.py_)
-This Python module facilitates the extraction and processing of Python source files from a given Git repository. 
-The primary steps involved in this module include:
-
-1. **Initialization**:
-   - Import required libraries and custom tools.
-   - Configure a GitLoader to filter and load only Python files from a specified repository.
-
-2. **Loading and Logging**:
-   - Load these filtered documents from the repository.
-   - Log the number of documents loaded and their source file paths.
-
-3. **Document Processing**:
-   - Split the loaded documents into smaller chunks for easier processing.
-   - Load or create a vector-based knowledge database from these document chunks using custom AI tools.
-
-4. **Query and Response Generation**:
-   - Define and configure the logger for detailed logging.
-   - Define a specific query to search within the source code repository.
-   - Retrieve relevant content from the knowledge base.
-   - Generate a response to the query using GPT-based tools.
-
-5. **Logging Execution Details**:
-   - Log key details including the response and the elapsed time for the execution.
-
-This module serves as a useful tool for searching and querying specific information within a codebase, 
-leveraging AI tools to provide meaningful insights and responses.
-
+Этот модуль позволяет извлекать и обрабатывать исходные файлы Python из векторной базы знаний клонированого 
+Git-репозитория. 
 
 
 ### 2.4. WebSearch (_24_WebSearch.py_)

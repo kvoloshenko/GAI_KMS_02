@@ -37,7 +37,7 @@ if __name__ == "__main__":
     jira_topic = "Give me tickets related to Moon Flight System. I need Ticket id, Summary and Project name."
 
     # Get the content related to the query using an ensemble method for message content retrieval
-    jira_message_content = tls.get_message_content_ensemble(jira_topic, jira_db, jira_source_chunks, 10)
+    jira_message_content = tls.get_message_content_ensemble(jira_topic, jira_db, jira_source_chunks, 3)
 
     # Define the system content for the assistant
     system_content = '''You are a useful assistant.
