@@ -312,7 +312,10 @@ def ask_agent(question):
   end_time = time.time()
   elapsed_time = end_time - start_time
   logger.debug(f'ask_agent elapsed_time = {elapsed_time} sec')
-  return response
+  # print(type(response))
+  content_text = response['messages'][0].content
+  # print(content_text)
+  return content_text
 
 
 
