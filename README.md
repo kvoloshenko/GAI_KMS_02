@@ -187,6 +187,10 @@ Git-репозитория.
 
 Приме GUI на Streamlit. 
 
-Ззапускать так:
+Запускать так:
 
 ![st_01.png](Images/st_01.png)
+
+Открываем в браузере по адресу `http://localhost:8501/`
+
+![st_02.png](Images/st_02.png)

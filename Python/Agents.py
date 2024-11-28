@@ -327,12 +327,12 @@ if __name__ == "__main__":
     response = ask_agent("Give me tickets related to Moon Flight System. I need Ticket id, Summary and Project name.")
     logger.debug(response)
 
-    # Ask a question related to Confluence to the agent
-    response = ask_agent("How to install Moon Flight System? Give me the main details")
-    logger.debug(response)
-
-    # Ask a question related to Git to the agent
-    response = ask_agent("I'm looking for where in the source code was defined the file name where is the prompt")
-    logger.debug(response)
+    # # Ask a question related to Confluence to the agent
+    # response = ask_agent("How to install Moon Flight System? Give me the main details")
+    # logger.debug(response)
+    #
+    # # Ask a question related to Git to the agent
+    # response = ask_agent("I'm looking for where in the source code was defined the file name where is the prompt")
+    # logger.debug(response)
 
 

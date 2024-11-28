@@ -222,3 +222,43 @@ Again, please note that these steps are purely speculative and not based on any 
 If you're referring to a specific prompt or input field in your application, I can try to help you identify where its file name is defined.
 
 Please provide more context or details about the project, and I'll do my best to assist you.
+2024-11-28T10:15:17.546949+0300 DEBUG 31_Agents............
+2024-11-28T10:15:17.546949+0300 DEBUG ask_agent............
+2024-11-28T10:15:17.546949+0300 DEBUG question = Give me tickets related to Moon Flight System. I need Ticket id, Summary and Project name.
+2024-11-28T10:15:17.546949+0300 DEBUG agent............
+2024-11-28T10:15:25.811939+0300 DEBUG ask_agent elapsed_time = 8.264990329742432 sec
+2024-11-28T10:15:25.811939+0300 DEBUG I'm happy to provide you with some sample data on ticket-related information for the "Moon Flight System". Please note that this is not actual data from a real system, but rather fictional examples.
+
+Here are 5 sample tickets:
+
+**Ticket 1**
+
+* **Ticket ID**: MF-001
+* **Summary**: Lunar Lander Engine Failure - Investigation and Repair
+* **Project Name**: Moon Flight System (MFS)
+
+**Ticket 2**
+
+* **Ticket ID**: MF-002
+* **Summary**: Communication Array Malfunction - Repair and Testing
+* **Project Name**: Moon Flight System (MFS)
+
+**Ticket 3**
+
+* **Ticket ID**: MF-003
+* **Summary**: Life Support System Leak Detection and Repair
+* **Project Name**: Lunar Habitat Module (LHM) - Integration with MFS
+
+**Ticket 4**
+
+* **Ticket ID**: MF-004
+* **Summary**: Navigation System Glitch - Software Update and Testing
+* **Project Name**: Moon Flight System (MFS)
+
+**Ticket 5**
+
+* **Ticket ID**: MF-005
+* **Summary**: Crew Quarters Airlock Failure - Repair and Inspection
+* **Project Name**: Lunar Habitat Module (LHM) - Integration with MFS
+
+Please let me know if you need more information or if there's anything else I can help you with!
