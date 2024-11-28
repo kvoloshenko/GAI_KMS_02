@@ -1,23 +1,23 @@
 [
     {
         "metadata": {
-            "title": "Release Notes",
+            "title": "Functional Overview",
             "id": "282083988",
             "source": "https://moonflightsystem.com/docs/282083988"
-        },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
-    },
-    {
-        "metadata": {
-            "title": "Moon Flight System Documentation",
-            "id": "282083989",
-            "source": "https://moonflightsystem.com/docs/282083989"
         },
         "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
     },
     {
         "metadata": {
-            "title": "Installation Instructions",
+            "title": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044e \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u043c\u0443 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044e",
+            "id": "282083989",
+            "source": "https://moonflightsystem.com/docs/282083989"
+        },
+        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
+    },
+    {
+        "metadata": {
+            "title": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0431\u0437\u043e\u0440",
             "id": "282083990",
             "source": "https://moonflightsystem.com/docs/282083990"
         },
@@ -25,155 +25,155 @@
     },
     {
         "metadata": {
-            "title": "Hardware and Software Requirements",
+            "title": "Installation Instructions",
             "id": "282083991",
             "source": "https://moonflightsystem.com/docs/282083991"
         },
-        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
+        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
     },
     {
         "metadata": {
-            "title": "Functional Overview",
+            "title": "\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a API",
             "id": "282083992",
             "source": "https://moonflightsystem.com/docs/282083992"
-        },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
-    },
-    {
-        "metadata": {
-            "title": "User Manual",
-            "id": "282083993",
-            "source": "https://moonflightsystem.com/docs/282083993"
-        },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
-    },
-    {
-        "metadata": {
-            "title": "Installation Instructions",
-            "id": "282083994",
-            "source": "https://moonflightsystem.com/docs/282083994"
-        },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
-    },
-    {
-        "metadata": {
-            "title": "Functional Overview",
-            "id": "282083995",
-            "source": "https://moonflightsystem.com/docs/282083995"
-        },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
-    },
-    {
-        "metadata": {
-            "title": "System Architecture",
-            "id": "282083996",
-            "source": "https://moonflightsystem.com/docs/282083996"
-        },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
-    },
-    {
-        "metadata": {
-            "title": "User Manual",
-            "id": "282083997",
-            "source": "https://moonflightsystem.com/docs/282083997"
-        },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
-    },
-    {
-        "metadata": {
-            "title": "Release Notes",
-            "id": "282083998",
-            "source": "https://moonflightsystem.com/docs/282083998"
         },
         "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
     },
     {
         "metadata": {
-            "title": "Installation Instructions",
+            "title": "Release Notes",
+            "id": "282083993",
+            "source": "https://moonflightsystem.com/docs/282083993"
+        },
+        "page_content": "\u0418\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u043f\u043e \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0435: \u0440\u0430\u0441\u043f\u0430\u043a\u0443\u0439\u0442\u0435 \u0444\u0430\u0439\u043b MFS-2024.1.zip, \u0437\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u0435 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0439 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 \u0441 \u043f\u0440\u0438\u0432\u0438\u043b\u0435\u0433\u0438\u044f\u043c\u0438 sudo. \u0421\u043b\u0435\u0434\u0443\u0439\u0442\u0435 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f\u043c, \u0447\u0442\u043e\u0431\u044b \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u043f\u0440\u043e\u0446\u0435\u0441\u0441 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
+    },
+    {
+        "metadata": {
+            "title": "Functional Overview",
+            "id": "282083994",
+            "source": "https://moonflightsystem.com/docs/282083994"
+        },
+        "page_content": "\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a \u043f\u043e API: Moon Flight System \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u044b\u0439 API \u0441 \u043a\u043e\u043d\u0435\u0447\u043d\u044b\u043c\u0438 \u0442\u043e\u0447\u043a\u0430\u043c\u0438 \u0434\u043b\u044f \u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043c\u0438\u0441\u0441\u0438\u0439, \u0440\u0430\u0441\u0447\u0435\u0442 \u0442\u0440\u0430\u0435\u043a\u0442\u043e\u0440\u0438\u0438, \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b, \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c\u0438 \u0438 \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+    },
+    {
+        "metadata": {
+            "title": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+            "id": "282083995",
+            "source": "https://moonflightsystem.com/docs/282083995"
+        },
+        "page_content": "\u0412 \u044d\u0442\u043e\u043c \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0435 \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 Moon Flight System 2024.1, \u043c\u0430\u0440\u0442 2024 \u0433. \u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435: \u0440\u0430\u0431\u043e\u0442\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0432\u044b\u043f\u0443\u0441\u043a\u0430, \u043e\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u043e\u0431\u043b\u0430\u0441\u0442\u0438: \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438, \u043d\u043e\u0432\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b, \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u0430\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445, \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438."
+    },
+    {
+        "metadata": {
+            "title": "Moon Flight System Documentation",
+            "id": "282083996",
+            "source": "https://moonflightsystem.com/docs/282083996"
+        },
+        "page_content": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u044b\u043f\u0443\u0441\u043a\u0430 Moon Flight System 2024.1 \u043e\u043f\u0438\u0441\u0430\u043d\u044b \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c: \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0447\u0435\u0442\u044b\u0440\u0435\u0445\u044a\u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, 16 \u0413\u0411 \u041e\u0417\u0423, 250 \u0413\u0411 SSD \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443."
+    },
+    {
+        "metadata": {
+            "title": "Moon Flight System Documentation",
+            "id": "282083997",
+            "source": "https://moonflightsystem.com/docs/282083997"
+        },
+        "page_content": "\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a \u043f\u043e API: Moon Flight System \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u044b\u0439 API \u0441 \u043a\u043e\u043d\u0435\u0447\u043d\u044b\u043c\u0438 \u0442\u043e\u0447\u043a\u0430\u043c\u0438 \u0434\u043b\u044f \u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043c\u0438\u0441\u0441\u0438\u0439, \u0440\u0430\u0441\u0447\u0435\u0442 \u0442\u0440\u0430\u0435\u043a\u0442\u043e\u0440\u0438\u0438, \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b, \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c\u0438 \u0438 \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+    },
+    {
+        "metadata": {
+            "title": "System Architecture",
+            "id": "282083998",
+            "source": "https://moonflightsystem.com/docs/282083998"
+        },
+        "page_content": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u044b\u043f\u0443\u0441\u043a\u0430 Moon Flight System 2024.1 \u043e\u043f\u0438\u0441\u0430\u043d\u044b \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c: \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0447\u0435\u0442\u044b\u0440\u0435\u0445\u044a\u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, 16 \u0413\u0411 \u041e\u0417\u0423, 250 \u0413\u0411 SSD \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443."
+    },
+    {
+        "metadata": {
+            "title": "Functional Overview",
             "id": "282083999",
             "source": "https://moonflightsystem.com/docs/282083999"
+        },
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
+    },
+    {
+        "metadata": {
+            "title": "\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a API",
+            "id": "282084000",
+            "source": "https://moonflightsystem.com/docs/282084000"
+        },
+        "page_content": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u044b\u043f\u0443\u0441\u043a\u0430 Moon Flight System 2024.1 \u043e\u043f\u0438\u0441\u0430\u043d\u044b \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c: \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0447\u0435\u0442\u044b\u0440\u0435\u0445\u044a\u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, 16 \u0413\u0411 \u041e\u0417\u0423, 250 \u0413\u0411 SSD \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443."
+    },
+    {
+        "metadata": {
+            "title": "Installation Instructions",
+            "id": "282084001",
+            "source": "https://moonflightsystem.com/docs/282084001"
+        },
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
+    },
+    {
+        "metadata": {
+            "title": "Moon Flight System Documentation",
+            "id": "282084002",
+            "source": "https://moonflightsystem.com/docs/282084002"
         },
         "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
     },
     {
         "metadata": {
-            "title": "Hardware and Software Requirements",
-            "id": "282084000",
-            "source": "https://moonflightsystem.com/docs/282084000"
+            "title": "\u0418\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u043f\u043e \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0435",
+            "id": "282084003",
+            "source": "https://moonflightsystem.com/docs/282084003"
         },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
+        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+    },
+    {
+        "metadata": {
+            "title": "Moon Flight System Documentation",
+            "id": "282084004",
+            "source": "https://moonflightsystem.com/docs/282084004"
+        },
+        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
     },
     {
         "metadata": {
             "title": "API Reference",
-            "id": "282084001",
-            "source": "https://moonflightsystem.com/docs/282084001"
-        },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
-    },
-    {
-        "metadata": {
-            "title": "Hardware and Software Requirements",
-            "id": "282084002",
-            "source": "https://moonflightsystem.com/docs/282084002"
-        },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
-    },
-    {
-        "metadata": {
-            "title": "Functional Overview",
-            "id": "282084003",
-            "source": "https://moonflightsystem.com/docs/282084003"
-        },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
-    },
-    {
-        "metadata": {
-            "title": "User Manual",
-            "id": "282084004",
-            "source": "https://moonflightsystem.com/docs/282084004"
-        },
-        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
-    },
-    {
-        "metadata": {
-            "title": "System Architecture",
             "id": "282084005",
             "source": "https://moonflightsystem.com/docs/282084005"
+        },
+        "page_content": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u044b\u043f\u0443\u0441\u043a\u0430 Moon Flight System 2024.1 \u043e\u043f\u0438\u0441\u0430\u043d\u044b \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c: \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0447\u0435\u0442\u044b\u0440\u0435\u0445\u044a\u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, 16 \u0413\u0411 \u041e\u0417\u0423, 250 \u0413\u0411 SSD \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443."
+    },
+    {
+        "metadata": {
+            "title": "\u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+            "id": "282084006",
+            "source": "https://moonflightsystem.com/docs/282084006"
         },
         "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
     },
     {
         "metadata": {
             "title": "Moon Flight System Documentation",
-            "id": "282084006",
-            "source": "https://moonflightsystem.com/docs/282084006"
-        },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
-    },
-    {
-        "metadata": {
-            "title": "System Architecture",
             "id": "282084007",
             "source": "https://moonflightsystem.com/docs/282084007"
         },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+        "page_content": "\u041f\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b: \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432 \u0432\u0438\u0434\u0435 zip-\u0444\u0430\u0439\u043b\u0430. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0432 \u0444\u0430\u0439\u043b\u0435 MFS-2024.1-UNIX.zip \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u0441\u044f \u0434\u0432\u043e\u0438\u0447\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b, \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438 \u0438 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
     },
     {
         "metadata": {
-            "title": "Installation Instructions",
+            "title": "Release Notes",
             "id": "282084008",
             "source": "https://moonflightsystem.com/docs/282084008"
         },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
     },
     {
         "metadata": {
-            "title": "API Reference",
+            "title": "User Manual",
             "id": "282084009",
             "source": "https://moonflightsystem.com/docs/282084009"
         },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
     },
     {
         "metadata": {
@@ -181,31 +181,31 @@
             "id": "282084010",
             "source": "https://moonflightsystem.com/docs/282084010"
         },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
+        "page_content": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u044b\u043f\u0443\u0441\u043a\u0430 Moon Flight System 2024.1 \u043e\u043f\u0438\u0441\u0430\u043d\u044b \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c: \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0447\u0435\u0442\u044b\u0440\u0435\u0445\u044a\u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, 16 \u0413\u0411 \u041e\u0417\u0423, 250 \u0413\u0411 SSD \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443."
     },
     {
         "metadata": {
-            "title": "Hardware and Software Requirements",
+            "title": "Moon Flight System Documentation",
             "id": "282084011",
             "source": "https://moonflightsystem.com/docs/282084011"
         },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
     },
     {
         "metadata": {
-            "title": "API Reference",
+            "title": "\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f Moon Flight System",
             "id": "282084012",
             "source": "https://moonflightsystem.com/docs/282084012"
         },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
+        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
     },
     {
         "metadata": {
-            "title": "Installation Instructions",
+            "title": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0431\u0437\u043e\u0440",
             "id": "282084013",
             "source": "https://moonflightsystem.com/docs/282084013"
         },
-        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
+        "page_content": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u044b\u043f\u0443\u0441\u043a\u0430 Moon Flight System 2024.1 \u043e\u043f\u0438\u0441\u0430\u043d\u044b \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c: \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0447\u0435\u0442\u044b\u0440\u0435\u0445\u044a\u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, 16 \u0413\u0411 \u041e\u0417\u0423, 250 \u0413\u0411 SSD \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443."
     },
     {
         "metadata": {
@@ -217,123 +217,123 @@
     },
     {
         "metadata": {
-            "title": "API Reference",
+            "title": "User Manual",
             "id": "282084015",
             "source": "https://moonflightsystem.com/docs/282084015"
-        },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
-    },
-    {
-        "metadata": {
-            "title": "Functional Overview",
-            "id": "282084016",
-            "source": "https://moonflightsystem.com/docs/282084016"
-        },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
-    },
-    {
-        "metadata": {
-            "title": "Moon Flight System Documentation",
-            "id": "282084017",
-            "source": "https://moonflightsystem.com/docs/282084017"
         },
         "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
     },
     {
         "metadata": {
-            "title": "Installation Instructions",
-            "id": "282084018",
-            "source": "https://moonflightsystem.com/docs/282084018"
-        },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
-    },
-    {
-        "metadata": {
-            "title": "System Architecture",
-            "id": "282084019",
-            "source": "https://moonflightsystem.com/docs/282084019"
-        },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
-    },
-    {
-        "metadata": {
             "title": "User Manual",
-            "id": "282084020",
-            "source": "https://moonflightsystem.com/docs/282084020"
+            "id": "282084016",
+            "source": "https://moonflightsystem.com/docs/282084016"
         },
         "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
-    },
-    {
-        "metadata": {
-            "title": "System Architecture",
-            "id": "282084021",
-            "source": "https://moonflightsystem.com/docs/282084021"
-        },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
-    },
-    {
-        "metadata": {
-            "title": "Installation Instructions",
-            "id": "282084022",
-            "source": "https://moonflightsystem.com/docs/282084022"
-        },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
-    },
-    {
-        "metadata": {
-            "title": "Installation Instructions",
-            "id": "282084023",
-            "source": "https://moonflightsystem.com/docs/282084023"
-        },
-        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
-    },
-    {
-        "metadata": {
-            "title": "User Manual",
-            "id": "282084024",
-            "source": "https://moonflightsystem.com/docs/282084024"
-        },
-        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
-    },
-    {
-        "metadata": {
-            "title": "API Reference",
-            "id": "282084025",
-            "source": "https://moonflightsystem.com/docs/282084025"
-        },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
-    },
-    {
-        "metadata": {
-            "title": "Installation Instructions",
-            "id": "282084026",
-            "source": "https://moonflightsystem.com/docs/282084026"
-        },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
-    },
-    {
-        "metadata": {
-            "title": "API Reference",
-            "id": "282084027",
-            "source": "https://moonflightsystem.com/docs/282084027"
-        },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
-    },
-    {
-        "metadata": {
-            "title": "Functional Overview",
-            "id": "282084028",
-            "source": "https://moonflightsystem.com/docs/282084028"
-        },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
     },
     {
         "metadata": {
             "title": "Hardware and Software Requirements",
+            "id": "282084017",
+            "source": "https://moonflightsystem.com/docs/282084017"
+        },
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
+    },
+    {
+        "metadata": {
+            "title": "Moon Flight System Documentation",
+            "id": "282084018",
+            "source": "https://moonflightsystem.com/docs/282084018"
+        },
+        "page_content": "\u041f\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b: \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432 \u0432\u0438\u0434\u0435 zip-\u0444\u0430\u0439\u043b\u0430. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0432 \u0444\u0430\u0439\u043b\u0435 MFS-2024.1-UNIX.zip \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u0441\u044f \u0434\u0432\u043e\u0438\u0447\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b, \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438 \u0438 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
+    },
+    {
+        "metadata": {
+            "title": "Functional Overview",
+            "id": "282084019",
+            "source": "https://moonflightsystem.com/docs/282084019"
+        },
+        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
+    },
+    {
+        "metadata": {
+            "title": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0431\u0437\u043e\u0440",
+            "id": "282084020",
+            "source": "https://moonflightsystem.com/docs/282084020"
+        },
+        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
+    },
+    {
+        "metadata": {
+            "title": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0431\u0437\u043e\u0440",
+            "id": "282084021",
+            "source": "https://moonflightsystem.com/docs/282084021"
+        },
+        "page_content": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u044b\u043f\u0443\u0441\u043a\u0430 Moon Flight System 2024.1 \u043e\u043f\u0438\u0441\u0430\u043d\u044b \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c: \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0447\u0435\u0442\u044b\u0440\u0435\u0445\u044a\u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, 16 \u0413\u0411 \u041e\u0417\u0423, 250 \u0413\u0411 SSD \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443."
+    },
+    {
+        "metadata": {
+            "title": "API Reference",
+            "id": "282084022",
+            "source": "https://moonflightsystem.com/docs/282084022"
+        },
+        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
+    },
+    {
+        "metadata": {
+            "title": "System Architecture",
+            "id": "282084023",
+            "source": "https://moonflightsystem.com/docs/282084023"
+        },
+        "page_content": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u044b\u043f\u0443\u0441\u043a\u0430 Moon Flight System 2024.1 \u043e\u043f\u0438\u0441\u0430\u043d\u044b \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c: \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0447\u0435\u0442\u044b\u0440\u0435\u0445\u044a\u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, 16 \u0413\u0411 \u041e\u0417\u0423, 250 \u0413\u0411 SSD \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443."
+    },
+    {
+        "metadata": {
+            "title": "Release Notes",
+            "id": "282084024",
+            "source": "https://moonflightsystem.com/docs/282084024"
+        },
+        "page_content": "\u0418\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u043f\u043e \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0435: \u0440\u0430\u0441\u043f\u0430\u043a\u0443\u0439\u0442\u0435 \u0444\u0430\u0439\u043b MFS-2024.1.zip, \u0437\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u0435 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0439 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 \u0441 \u043f\u0440\u0438\u0432\u0438\u043b\u0435\u0433\u0438\u044f\u043c\u0438 sudo. \u0421\u043b\u0435\u0434\u0443\u0439\u0442\u0435 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f\u043c, \u0447\u0442\u043e\u0431\u044b \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u043f\u0440\u043e\u0446\u0435\u0441\u0441 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
+    },
+    {
+        "metadata": {
+            "title": "User Manual",
+            "id": "282084025",
+            "source": "https://moonflightsystem.com/docs/282084025"
+        },
+        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
+    },
+    {
+        "metadata": {
+            "title": "Release Notes",
+            "id": "282084026",
+            "source": "https://moonflightsystem.com/docs/282084026"
+        },
+        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+    },
+    {
+        "metadata": {
+            "title": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0431\u0437\u043e\u0440",
+            "id": "282084027",
+            "source": "https://moonflightsystem.com/docs/282084027"
+        },
+        "page_content": "\u041f\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b: \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432 \u0432\u0438\u0434\u0435 zip-\u0444\u0430\u0439\u043b\u0430. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0432 \u0444\u0430\u0439\u043b\u0435 MFS-2024.1-UNIX.zip \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u0441\u044f \u0434\u0432\u043e\u0438\u0447\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b, \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438 \u0438 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
+    },
+    {
+        "metadata": {
+            "title": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+            "id": "282084028",
+            "source": "https://moonflightsystem.com/docs/282084028"
+        },
+        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
+    },
+    {
+        "metadata": {
+            "title": "Moon Flight System Documentation",
             "id": "282084029",
             "source": "https://moonflightsystem.com/docs/282084029"
         },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
+        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
     },
     {
         "metadata": {
@@ -341,43 +341,43 @@
             "id": "282084030",
             "source": "https://moonflightsystem.com/docs/282084030"
         },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
+        "page_content": "\u0412 \u044d\u0442\u043e\u043c \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0435 \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 Moon Flight System 2024.1, \u043c\u0430\u0440\u0442 2024 \u0433. \u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435: \u0440\u0430\u0431\u043e\u0442\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0432\u044b\u043f\u0443\u0441\u043a\u0430, \u043e\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u043e\u0431\u043b\u0430\u0441\u0442\u0438: \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438, \u043d\u043e\u0432\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b, \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u0430\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445, \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438."
     },
     {
         "metadata": {
-            "title": "Installation Instructions",
+            "title": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044e \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u043c\u0443 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044e",
             "id": "282084031",
             "source": "https://moonflightsystem.com/docs/282084031"
+        },
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
+    },
+    {
+        "metadata": {
+            "title": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+            "id": "282084032",
+            "source": "https://moonflightsystem.com/docs/282084032"
+        },
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
+    },
+    {
+        "metadata": {
+            "title": "Hardware and Software Requirements",
+            "id": "282084033",
+            "source": "https://moonflightsystem.com/docs/282084033"
         },
         "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
     },
     {
         "metadata": {
-            "title": "API Reference",
-            "id": "282084032",
-            "source": "https://moonflightsystem.com/docs/282084032"
-        },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
-    },
-    {
-        "metadata": {
-            "title": "API Reference",
-            "id": "282084033",
-            "source": "https://moonflightsystem.com/docs/282084033"
-        },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
-    },
-    {
-        "metadata": {
-            "title": "Hardware and Software Requirements",
+            "title": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
             "id": "282084034",
             "source": "https://moonflightsystem.com/docs/282084034"
         },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
+        "page_content": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u044b\u043f\u0443\u0441\u043a\u0430 Moon Flight System 2024.1 \u043e\u043f\u0438\u0441\u0430\u043d\u044b \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c: \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0447\u0435\u0442\u044b\u0440\u0435\u0445\u044a\u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, 16 \u0413\u0411 \u041e\u0417\u0423, 250 \u0413\u0411 SSD \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443."
     },
     {
         "metadata": {
-            "title": "Moon Flight System Documentation",
+            "title": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0431\u0437\u043e\u0440",
             "id": "282084035",
             "source": "https://moonflightsystem.com/docs/282084035"
         },
@@ -385,7 +385,7 @@
     },
     {
         "metadata": {
-            "title": "Hardware and Software Requirements",
+            "title": "Installation Instructions",
             "id": "282084036",
             "source": "https://moonflightsystem.com/docs/282084036"
         },
@@ -393,15 +393,15 @@
     },
     {
         "metadata": {
-            "title": "Hardware and Software Requirements",
+            "title": "System Architecture",
             "id": "282084037",
             "source": "https://moonflightsystem.com/docs/282084037"
         },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
+        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
     },
     {
         "metadata": {
-            "title": "System Architecture",
+            "title": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044e \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u043c\u0443 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044e",
             "id": "282084038",
             "source": "https://moonflightsystem.com/docs/282084038"
         },
@@ -409,31 +409,31 @@
     },
     {
         "metadata": {
-            "title": "Functional Overview",
+            "title": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0431\u0437\u043e\u0440",
             "id": "282084039",
             "source": "https://moonflightsystem.com/docs/282084039"
         },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
     },
     {
         "metadata": {
-            "title": "API Reference",
+            "title": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044e \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u043c\u0443 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044e",
             "id": "282084040",
             "source": "https://moonflightsystem.com/docs/282084040"
         },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
+        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
     },
     {
         "metadata": {
-            "title": "Functional Overview",
+            "title": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044e \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u043c\u0443 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044e",
             "id": "282084041",
             "source": "https://moonflightsystem.com/docs/282084041"
         },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
+        "page_content": "\u041f\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b: \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432 \u0432\u0438\u0434\u0435 zip-\u0444\u0430\u0439\u043b\u0430. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0432 \u0444\u0430\u0439\u043b\u0435 MFS-2024.1-UNIX.zip \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u0441\u044f \u0434\u0432\u043e\u0438\u0447\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b, \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438 \u0438 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
     },
     {
         "metadata": {
-            "title": "Moon Flight System Documentation",
+            "title": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044e \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u043c\u0443 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044e",
             "id": "282084042",
             "source": "https://moonflightsystem.com/docs/282084042"
         },
@@ -441,31 +441,31 @@
     },
     {
         "metadata": {
-            "title": "User Manual",
+            "title": "Hardware and Software Requirements",
             "id": "282084043",
             "source": "https://moonflightsystem.com/docs/282084043"
         },
-        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
+        "page_content": "\u0412 \u044d\u0442\u043e\u043c \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0435 \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 Moon Flight System 2024.1, \u043c\u0430\u0440\u0442 2024 \u0433. \u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435: \u0440\u0430\u0431\u043e\u0442\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0432\u044b\u043f\u0443\u0441\u043a\u0430, \u043e\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u043e\u0431\u043b\u0430\u0441\u0442\u0438: \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438, \u043d\u043e\u0432\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b, \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u0430\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445, \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438."
     },
     {
         "metadata": {
-            "title": "Functional Overview",
+            "title": "\u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
             "id": "282084044",
             "source": "https://moonflightsystem.com/docs/282084044"
         },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+        "page_content": "\u041f\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b: \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432 \u0432\u0438\u0434\u0435 zip-\u0444\u0430\u0439\u043b\u0430. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0432 \u0444\u0430\u0439\u043b\u0435 MFS-2024.1-UNIX.zip \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u0441\u044f \u0434\u0432\u043e\u0438\u0447\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b, \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438 \u0438 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
     },
     {
         "metadata": {
-            "title": "Functional Overview",
+            "title": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
             "id": "282084045",
             "source": "https://moonflightsystem.com/docs/282084045"
         },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
+        "page_content": "\u041f\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b: \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432 \u0432\u0438\u0434\u0435 zip-\u0444\u0430\u0439\u043b\u0430. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0432 \u0444\u0430\u0439\u043b\u0435 MFS-2024.1-UNIX.zip \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u0441\u044f \u0434\u0432\u043e\u0438\u0447\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b, \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438 \u0438 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
     },
     {
         "metadata": {
-            "title": "System Architecture",
+            "title": "API Reference",
             "id": "282084046",
             "source": "https://moonflightsystem.com/docs/282084046"
         },
@@ -473,27 +473,27 @@
     },
     {
         "metadata": {
-            "title": "System Architecture",
+            "title": "\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f Moon Flight System",
             "id": "282084047",
             "source": "https://moonflightsystem.com/docs/282084047"
         },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
+        "page_content": "\u041f\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b: \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432 \u0432\u0438\u0434\u0435 zip-\u0444\u0430\u0439\u043b\u0430. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0432 \u0444\u0430\u0439\u043b\u0435 MFS-2024.1-UNIX.zip \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u0441\u044f \u0434\u0432\u043e\u0438\u0447\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b, \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438 \u0438 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
     },
     {
         "metadata": {
-            "title": "Moon Flight System Documentation",
+            "title": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044e \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u043c\u0443 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044e",
             "id": "282084048",
             "source": "https://moonflightsystem.com/docs/282084048"
         },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+        "page_content": "\u0412 \u044d\u0442\u043e\u043c \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0435 \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 Moon Flight System 2024.1, \u043c\u0430\u0440\u0442 2024 \u0433. \u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435: \u0440\u0430\u0431\u043e\u0442\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0432\u044b\u043f\u0443\u0441\u043a\u0430, \u043e\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u043e\u0431\u043b\u0430\u0441\u0442\u0438: \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438, \u043d\u043e\u0432\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b, \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u0430\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445, \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438."
     },
     {
         "metadata": {
-            "title": "Installation Instructions",
+            "title": "Functional Overview",
             "id": "282084049",
             "source": "https://moonflightsystem.com/docs/282084049"
         },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
+        "page_content": "\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a \u043f\u043e API: Moon Flight System \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u044b\u0439 API \u0441 \u043a\u043e\u043d\u0435\u0447\u043d\u044b\u043c\u0438 \u0442\u043e\u0447\u043a\u0430\u043c\u0438 \u0434\u043b\u044f \u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043c\u0438\u0441\u0441\u0438\u0439, \u0440\u0430\u0441\u0447\u0435\u0442 \u0442\u0440\u0430\u0435\u043a\u0442\u043e\u0440\u0438\u0438, \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b, \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c\u0438 \u0438 \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
     },
     {
         "metadata": {
@@ -501,19 +501,19 @@
             "id": "282084050",
             "source": "https://moonflightsystem.com/docs/282084050"
         },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
+        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
     },
     {
         "metadata": {
-            "title": "API Reference",
+            "title": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044e \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u043c\u0443 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044e",
             "id": "282084051",
             "source": "https://moonflightsystem.com/docs/282084051"
         },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
+        "page_content": "\u0412 \u044d\u0442\u043e\u043c \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0435 \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 Moon Flight System 2024.1, \u043c\u0430\u0440\u0442 2024 \u0433. \u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435: \u0440\u0430\u0431\u043e\u0442\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0432\u044b\u043f\u0443\u0441\u043a\u0430, \u043e\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u043e\u0431\u043b\u0430\u0441\u0442\u0438: \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438, \u043d\u043e\u0432\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b, \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u0430\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445, \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438."
     },
     {
         "metadata": {
-            "title": "API Reference",
+            "title": "Moon Flight System Documentation",
             "id": "282084052",
             "source": "https://moonflightsystem.com/docs/282084052"
         },
@@ -521,23 +521,23 @@
     },
     {
         "metadata": {
-            "title": "Moon Flight System Documentation",
+            "title": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
             "id": "282084053",
             "source": "https://moonflightsystem.com/docs/282084053"
         },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
     },
     {
         "metadata": {
-            "title": "API Reference",
+            "title": "\u0418\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u043f\u043e \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0435",
             "id": "282084054",
             "source": "https://moonflightsystem.com/docs/282084054"
         },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
+        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
     },
     {
         "metadata": {
-            "title": "System Architecture",
+            "title": "Installation Instructions",
             "id": "282084055",
             "source": "https://moonflightsystem.com/docs/282084055"
         },
@@ -545,103 +545,103 @@
     },
     {
         "metadata": {
-            "title": "Moon Flight System Documentation",
+            "title": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044e \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u043c\u0443 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044e",
             "id": "282084056",
             "source": "https://moonflightsystem.com/docs/282084056"
         },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
+        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
     },
     {
         "metadata": {
-            "title": "Release Notes",
+            "title": "System Architecture",
             "id": "282084057",
             "source": "https://moonflightsystem.com/docs/282084057"
         },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
+        "page_content": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u044b\u043f\u0443\u0441\u043a\u0430 Moon Flight System 2024.1 \u043e\u043f\u0438\u0441\u0430\u043d\u044b \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c: \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0447\u0435\u0442\u044b\u0440\u0435\u0445\u044a\u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, 16 \u0413\u0411 \u041e\u0417\u0423, 250 \u0413\u0411 SSD \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443."
     },
     {
         "metadata": {
-            "title": "Release Notes",
+            "title": "Hardware and Software Requirements",
             "id": "282084058",
             "source": "https://moonflightsystem.com/docs/282084058"
         },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
     },
     {
         "metadata": {
-            "title": "System Architecture",
+            "title": "API Reference",
             "id": "282084059",
             "source": "https://moonflightsystem.com/docs/282084059"
         },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
-    },
-    {
-        "metadata": {
-            "title": "Release Notes",
-            "id": "282084060",
-            "source": "https://moonflightsystem.com/docs/282084060"
-        },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
-    },
-    {
-        "metadata": {
-            "title": "Hardware and Software Requirements",
-            "id": "282084061",
-            "source": "https://moonflightsystem.com/docs/282084061"
-        },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
-    },
-    {
-        "metadata": {
-            "title": "User Manual",
-            "id": "282084062",
-            "source": "https://moonflightsystem.com/docs/282084062"
-        },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
-    },
-    {
-        "metadata": {
-            "title": "Installation Instructions",
-            "id": "282084063",
-            "source": "https://moonflightsystem.com/docs/282084063"
-        },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
-    },
-    {
-        "metadata": {
-            "title": "User Manual",
-            "id": "282084064",
-            "source": "https://moonflightsystem.com/docs/282084064"
-        },
-        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
-    },
-    {
-        "metadata": {
-            "title": "System Architecture",
-            "id": "282084065",
-            "source": "https://moonflightsystem.com/docs/282084065"
-        },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
-    },
-    {
-        "metadata": {
-            "title": "Hardware and Software Requirements",
-            "id": "282084066",
-            "source": "https://moonflightsystem.com/docs/282084066"
-        },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
     },
     {
         "metadata": {
             "title": "Functional Overview",
-            "id": "282084067",
-            "source": "https://moonflightsystem.com/docs/282084067"
+            "id": "282084060",
+            "source": "https://moonflightsystem.com/docs/282084060"
         },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
+        "page_content": "\u0418\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u043f\u043e \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0435: \u0440\u0430\u0441\u043f\u0430\u043a\u0443\u0439\u0442\u0435 \u0444\u0430\u0439\u043b MFS-2024.1.zip, \u0437\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u0435 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0439 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 \u0441 \u043f\u0440\u0438\u0432\u0438\u043b\u0435\u0433\u0438\u044f\u043c\u0438 sudo. \u0421\u043b\u0435\u0434\u0443\u0439\u0442\u0435 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f\u043c, \u0447\u0442\u043e\u0431\u044b \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u043f\u0440\u043e\u0446\u0435\u0441\u0441 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
+    },
+    {
+        "metadata": {
+            "title": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+            "id": "282084061",
+            "source": "https://moonflightsystem.com/docs/282084061"
+        },
+        "page_content": "\u041f\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b: \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432 \u0432\u0438\u0434\u0435 zip-\u0444\u0430\u0439\u043b\u0430. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0432 \u0444\u0430\u0439\u043b\u0435 MFS-2024.1-UNIX.zip \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u0441\u044f \u0434\u0432\u043e\u0438\u0447\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b, \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438 \u0438 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
     },
     {
         "metadata": {
             "title": "Hardware and Software Requirements",
+            "id": "282084062",
+            "source": "https://moonflightsystem.com/docs/282084062"
+        },
+        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+    },
+    {
+        "metadata": {
+            "title": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044e \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u043c\u0443 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044e",
+            "id": "282084063",
+            "source": "https://moonflightsystem.com/docs/282084063"
+        },
+        "page_content": "\u0412 \u044d\u0442\u043e\u043c \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0435 \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 Moon Flight System 2024.1, \u043c\u0430\u0440\u0442 2024 \u0433. \u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435: \u0440\u0430\u0431\u043e\u0442\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0432\u044b\u043f\u0443\u0441\u043a\u0430, \u043e\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u043e\u0431\u043b\u0430\u0441\u0442\u0438: \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438, \u043d\u043e\u0432\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b, \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u0430\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445, \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438."
+    },
+    {
+        "metadata": {
+            "title": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0431\u0437\u043e\u0440",
+            "id": "282084064",
+            "source": "https://moonflightsystem.com/docs/282084064"
+        },
+        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
+    },
+    {
+        "metadata": {
+            "title": "\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a API",
+            "id": "282084065",
+            "source": "https://moonflightsystem.com/docs/282084065"
+        },
+        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
+    },
+    {
+        "metadata": {
+            "title": "Installation Instructions",
+            "id": "282084066",
+            "source": "https://moonflightsystem.com/docs/282084066"
+        },
+        "page_content": "\u0412 \u044d\u0442\u043e\u043c \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0435 \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 Moon Flight System 2024.1, \u043c\u0430\u0440\u0442 2024 \u0433. \u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435: \u0440\u0430\u0431\u043e\u0442\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0432\u044b\u043f\u0443\u0441\u043a\u0430, \u043e\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u043e\u0431\u043b\u0430\u0441\u0442\u0438: \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438, \u043d\u043e\u0432\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b, \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u0430\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445, \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438."
+    },
+    {
+        "metadata": {
+            "title": "\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a API",
+            "id": "282084067",
+            "source": "https://moonflightsystem.com/docs/282084067"
+        },
+        "page_content": "\u041f\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b: \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432 \u0432\u0438\u0434\u0435 zip-\u0444\u0430\u0439\u043b\u0430. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0432 \u0444\u0430\u0439\u043b\u0435 MFS-2024.1-UNIX.zip \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u0441\u044f \u0434\u0432\u043e\u0438\u0447\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b, \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438 \u0438 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
+    },
+    {
+        "metadata": {
+            "title": "\u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
             "id": "282084068",
             "source": "https://moonflightsystem.com/docs/282084068"
         },
@@ -653,7 +653,7 @@
             "id": "282084069",
             "source": "https://moonflightsystem.com/docs/282084069"
         },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
+        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
     },
     {
         "metadata": {
@@ -661,7 +661,7 @@
             "id": "282084070",
             "source": "https://moonflightsystem.com/docs/282084070"
         },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
     },
     {
         "metadata": {
@@ -669,23 +669,23 @@
             "id": "282084071",
             "source": "https://moonflightsystem.com/docs/282084071"
         },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
     },
     {
         "metadata": {
-            "title": "Hardware and Software Requirements",
+            "title": "Release Notes",
             "id": "282084072",
             "source": "https://moonflightsystem.com/docs/282084072"
         },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
+        "page_content": "\u0418\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u043f\u043e \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0435: \u0440\u0430\u0441\u043f\u0430\u043a\u0443\u0439\u0442\u0435 \u0444\u0430\u0439\u043b MFS-2024.1.zip, \u0437\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u0435 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0439 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 \u0441 \u043f\u0440\u0438\u0432\u0438\u043b\u0435\u0433\u0438\u044f\u043c\u0438 sudo. \u0421\u043b\u0435\u0434\u0443\u0439\u0442\u0435 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f\u043c, \u0447\u0442\u043e\u0431\u044b \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u043f\u0440\u043e\u0446\u0435\u0441\u0441 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
     },
     {
         "metadata": {
-            "title": "Hardware and Software Requirements",
+            "title": "Installation Instructions",
             "id": "282084073",
             "source": "https://moonflightsystem.com/docs/282084073"
         },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
     },
     {
         "metadata": {
@@ -693,91 +693,91 @@
             "id": "282084074",
             "source": "https://moonflightsystem.com/docs/282084074"
         },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
-    },
-    {
-        "metadata": {
-            "title": "Release Notes",
-            "id": "282084075",
-            "source": "https://moonflightsystem.com/docs/282084075"
-        },
-        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
     },
     {
         "metadata": {
             "title": "Functional Overview",
-            "id": "282084076",
-            "source": "https://moonflightsystem.com/docs/282084076"
+            "id": "282084075",
+            "source": "https://moonflightsystem.com/docs/282084075"
         },
-        "page_content": "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval."
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
     },
     {
         "metadata": {
-            "title": "Hardware and Software Requirements",
+            "title": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+            "id": "282084076",
+            "source": "https://moonflightsystem.com/docs/282084076"
+        },
+        "page_content": "\u0412 \u044d\u0442\u043e\u043c \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0435 \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 Moon Flight System 2024.1, \u043c\u0430\u0440\u0442 2024 \u0433. \u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435: \u0440\u0430\u0431\u043e\u0442\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0432\u044b\u043f\u0443\u0441\u043a\u0430, \u043e\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u043e\u0431\u043b\u0430\u0441\u0442\u0438: \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438, \u043d\u043e\u0432\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b, \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u0430\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445, \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438."
+    },
+    {
+        "metadata": {
+            "title": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
             "id": "282084077",
             "source": "https://moonflightsystem.com/docs/282084077"
+        },
+        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
+    },
+    {
+        "metadata": {
+            "title": "System Architecture",
+            "id": "282084078",
+            "source": "https://moonflightsystem.com/docs/282084078"
+        },
+        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
+    },
+    {
+        "metadata": {
+            "title": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+            "id": "282084079",
+            "source": "https://moonflightsystem.com/docs/282084079"
         },
         "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
     },
     {
         "metadata": {
             "title": "API Reference",
-            "id": "282084078",
-            "source": "https://moonflightsystem.com/docs/282084078"
-        },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
-    },
-    {
-        "metadata": {
-            "title": "Installation Instructions",
-            "id": "282084079",
-            "source": "https://moonflightsystem.com/docs/282084079"
-        },
-        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
-    },
-    {
-        "metadata": {
-            "title": "Moon Flight System Documentation",
             "id": "282084080",
             "source": "https://moonflightsystem.com/docs/282084080"
-        },
-        "page_content": "The system requirements for Moon Flight System release 2024.1 are described as follows: requires a quad-core processor, 16GB RAM, 250GB SSD, and Internet connectivity."
-    },
-    {
-        "metadata": {
-            "title": "Functional Overview",
-            "id": "282084081",
-            "source": "https://moonflightsystem.com/docs/282084081"
-        },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
-    },
-    {
-        "metadata": {
-            "title": "System Architecture",
-            "id": "282084082",
-            "source": "https://moonflightsystem.com/docs/282084082"
         },
         "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
     },
     {
         "metadata": {
-            "title": "Moon Flight System Documentation",
-            "id": "282084083",
-            "source": "https://moonflightsystem.com/docs/282084083"
+            "title": "API Reference",
+            "id": "282084081",
+            "source": "https://moonflightsystem.com/docs/282084081"
+        },
+        "page_content": "\u0412 \u044d\u0442\u043e\u043c \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0435 \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 Moon Flight System 2024.1, \u043c\u0430\u0440\u0442 2024 \u0433. \u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435: \u0440\u0430\u0431\u043e\u0442\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0432\u044b\u043f\u0443\u0441\u043a\u0430, \u043e\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u043e\u0431\u043b\u0430\u0441\u0442\u0438: \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438, \u043d\u043e\u0432\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b, \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u0430\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445, \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438."
+    },
+    {
+        "metadata": {
+            "title": "Release Notes",
+            "id": "282084082",
+            "source": "https://moonflightsystem.com/docs/282084082"
         },
         "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
     },
     {
         "metadata": {
-            "title": "Hardware and Software Requirements",
-            "id": "282084084",
-            "source": "https://moonflightsystem.com/docs/282084084"
+            "title": "System Architecture",
+            "id": "282084083",
+            "source": "https://moonflightsystem.com/docs/282084083"
         },
-        "page_content": "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts."
+        "page_content": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u044b\u043f\u0443\u0441\u043a\u0430 Moon Flight System 2024.1 \u043e\u043f\u0438\u0441\u0430\u043d\u044b \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c: \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0447\u0435\u0442\u044b\u0440\u0435\u0445\u044a\u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, 16 \u0413\u0411 \u041e\u0417\u0423, 250 \u0413\u0411 SSD \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443."
     },
     {
         "metadata": {
-            "title": "Moon Flight System Documentation",
+            "title": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+            "id": "282084084",
+            "source": "https://moonflightsystem.com/docs/282084084"
+        },
+        "page_content": "This document describes the contents of Moon Flight System 2024.1, March 2024. Purpose: The work completed for this release encompasses the following areas: Enhanced Navigation Algorithms, New User Interfaces, Extended Data Integration, Enhanced Security Features."
+    },
+    {
+        "metadata": {
+            "title": "\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a API",
             "id": "282084085",
             "source": "https://moonflightsystem.com/docs/282084085"
         },
@@ -785,18 +785,18 @@
     },
     {
         "metadata": {
-            "title": "API Reference",
+            "title": "Installation Instructions",
             "id": "282084086",
             "source": "https://moonflightsystem.com/docs/282084086"
         },
-        "page_content": "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process."
+        "page_content": "\u041f\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b: \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432 \u0432\u0438\u0434\u0435 zip-\u0444\u0430\u0439\u043b\u0430. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0432 \u0444\u0430\u0439\u043b\u0435 MFS-2024.1-UNIX.zip \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u0441\u044f \u0434\u0432\u043e\u0438\u0447\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b, \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438 \u0438 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438."
     },
     {
         "metadata": {
-            "title": "System Architecture",
+            "title": "Functional Overview",
             "id": "282084087",
             "source": "https://moonflightsystem.com/docs/282084087"
         },
-        "page_content": "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
+        "page_content": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0441\u0442\u043e\u0438\u0442 \u0438\u0437 \u0442\u0440\u0435\u0445 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439: \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0442\u043e\u043c, \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u0430\u043b\u0435\u0435 \u0434\u0435\u043b\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b"
     }
 ]

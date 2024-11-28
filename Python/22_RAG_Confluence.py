@@ -34,7 +34,8 @@ if __name__ == "__main__":
     start_time = time.time()
 
     # Define the topic for query, which is about installing the moon flight system
-    confluence_topic = "How to install Moon Flight System? Give me the main details."
+    # confluence_topic = "How to install Moon Flight System? Give me the main details."
+    confluence_topic = "Как установить Moon Flight System? Дай мне информацию из документации."
     # Get the content related to the query using an ensemble method for message content retrieval
     confluence_message_content = tls.get_message_content_ensemble(confluence_topic, confluence_db, confluence_source_chunks, 3)
 

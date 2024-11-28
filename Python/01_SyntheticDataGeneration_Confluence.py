@@ -12,7 +12,14 @@ def generate_synthetic_data(count):
         "Installation Instructions",
         "System Architecture",
         "User Manual",
-        "API Reference"
+        "API Reference",
+        "Документация Moon Flight System",
+        "Функциональный обзор",
+        "Требования к оборудованию и программному обеспечению",
+        "Инструкции по установке",
+        "Архитектура системы",
+        "Руководство пользователя",
+        "Справочник API"
     ]
 
     descriptions = [
@@ -21,7 +28,13 @@ def generate_synthetic_data(count):
         "Deliverables: The server software is distributed in the form of a zip file. For example, in the MFS-2024.1-UNIX.zip file, contains binaries, libraries, and installation scripts.",
         "Installation Instructions: Unzip the MFS-2024.1.zip file, run the installer script with sudo privileges. Follow the prompts to complete the installation process.",
         "API Reference: Moon Flight System offers a comprehensive API with endpoints for mission planning, trajectory calculation, system status, user management, and data retrieval.",
-        "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices."
+        "System Architecture: The system consists of three major modules: Flight Control, Data Analytics, and User Interaction. Each module is further divided into microservices.",
+        "В этом документе описывается содержимое Moon Flight System 2024.1, март 2024 г. Назначение: работа, выполненная для этого выпуска, охватывает следующие области: улучшенные алгоритмы навигации, новые пользовательские интерфейсы, расширенная интеграция данных, улучшенные функции безопасности.",
+        "Системные требования для выпуска Moon Flight System 2024.1 описаны следующим образом: требуется четырехъядерный процессор, 16 ГБ ОЗУ, 250 ГБ SSD и подключение к Интернету.",
+        "Поставляемые материалы: серверное программное обеспечение распространяется в виде zip-файла. Например, в файле MFS-2024.1-UNIX.zip содержатся двоичные файлы, библиотеки и сценарии установки.",
+        "Инструкции по установке: распакуйте файл MFS-2024.1.zip, запустите сценарий установки с привилегиями sudo. Следуйте инструкциям, чтобы завершить процесс установки.",
+        "Справочник по API: Moon Flight System предлагает комплексный API с конечными точками для планирования миссий, расчет траектории, состояние системы, управление пользователями и извлечение данных.",
+        "Архитектура системы: система состоит из трех основных модулей: управление полетом, аналитика данных и взаимодействие с пользователем. Каждый модуль далее делится на микросервисы"
     ]
 
     data = []

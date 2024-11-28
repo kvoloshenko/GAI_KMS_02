@@ -31,7 +31,8 @@ jira_retriever_tool = create_retriever_tool(
 confluence_retriever_tool = create_retriever_tool(
     retriever_confluence,
     "retrieve_confluence",
-    "Search and return information from Confluence on products documentations.",
+    """Search and extract information from Confluence for product documentation such as Moon Flight System installation, 
+    user manuals, and other documentation for various systems.""",
 )
 
 git_retriever_tool = create_retriever_tool(
