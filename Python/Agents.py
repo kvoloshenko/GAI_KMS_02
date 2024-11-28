@@ -280,14 +280,22 @@ workflow.add_edge("rewrite", "agent")
 # Compile the graph
 graph = workflow.compile()
 
-# TODO
+# Получаем картинку для графа
 # from IPython.display import Image, display
-# # Display the compiled graph
-# try:
-#     display(Image(graph.get_graph(xray=True).draw_mermaid_png()))
-# except Exception:
-#     # This requires some extra dependencies and is optional
-#     pass
+# graph_image = Image(graph.get_graph().draw_mermaid_png())
+# display(graph_image)
+#
+# # Сохраняем картинку в файл
+# graph_image = graph.get_graph().draw_mermaid_png()
+# with open("../Images/graph_image.png", "wb") as png:
+#     png.write(graph_image)
+#
+#
+# # Открытие и отображение изображения
+# from PIL import Image as PILImage
+# import io
+# img = PILImage.open("../Images/graph_image.png")
+# img.show()
 
 import pprint
 def ask_agent(question):
@@ -327,12 +335,12 @@ if __name__ == "__main__":
     response = ask_agent("Give me tickets related to Moon Flight System. I need Ticket id, Summary and Project name.")
     logger.debug(response)
 
-    # # Ask a question related to Confluence to the agent
-    # response = ask_agent("How to install Moon Flight System? Give me the main details")
-    # logger.debug(response)
-    #
-    # # Ask a question related to Git to the agent
-    # response = ask_agent("I'm looking for where in the source code was defined the file name where is the prompt")
-    # logger.debug(response)
+    # Ask a question related to Confluence to the agent
+    response = ask_agent("How to install Moon Flight System? Give me the main details")
+    logger.debug(response)
+
+    # Ask a question related to Git to the agent
+    response = ask_agent("I'm looking for where in the source code was defined the file name where is the prompt")
+    logger.debug(response)
 
 
