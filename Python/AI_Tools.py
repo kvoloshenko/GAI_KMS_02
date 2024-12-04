@@ -1,31 +1,25 @@
-import os
-import re
-from dotenv import load_dotenv
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS # Import FAISS module
 from loguru import logger # Import logger
 import time
-# Import necessary modules for splitting text into chunks
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_community.retrievers import BM25Retriever
-from langchain.retrievers import EnsembleRetriever
 from openai import OpenAI
 
 
-# Function for requesting ChatGPT
+# Функция для запроса LLM
 def gpt_request(user_content, system_content):
     logger.debug('gpt_request............')
     start_time = time.time()
     logger.debug(f'user_content={user_content}')
     logger.debug(f'system_content={system_content}')
     # Point to the local server
-    client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
+    client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio") #<-- Это настройка для LM Studio
     response = client.chat.completions.create(
     model="LL_MODEL",
     messages=[
-      {"role": "system", "content": system_content}, # <-- This is the system message that provides context to the model
-      {"role": "user", "content": user_content}     # <-- This is the user message for which the model will generate a response
+      {"role": "system", "content": system_content}, # <-- Это системное сообщение
+      {"role": "user", "content": user_content}      # <-- Это сообщение пользователя
     ]
     )
     end_time = time.time()
@@ -34,8 +28,8 @@ def gpt_request(user_content, system_content):
     return response.choices[0].message.content
 
 
-# Function for Splitting documents
-# RecursiveCharacterTextSplitter see here:
+# Функция для разделения (splitting) документов
+# RecursiveCharacterTextSplitter см. здесь:
 # https://python.langchain.com/v0.2/docs/how_to/recursive_text_splitter/
 def split_documents(documents):
   # Function to split documents into chunks using RecursiveCharacterTextSplitter
@@ -53,10 +47,10 @@ def split_documents(documents):
     return source_chunks
 
 def get_embeddings(type='cpu'):
-  # Function to get the embeddings model from HuggingFace
+  # Функция для получения embeddings model from HuggingFace
     logger.debug('get_embeddings............')
     start_time = time.time()
-    model_id = 'intfloat/multilingual-e5-large'
+    model_id = 'intfloat/multilingual-e5-large' # <-- Это имя используемой embeddings модели
     if type=='cpu':
         model_kwargs = {'device': 'cpu'}
     else:
@@ -76,9 +70,8 @@ def get_embeddings(type='cpu'):
 # Getting Embeddings
 # embeddings = get_embeddings()
 
-# Function for creating a new Vector Knowledge Base
+# Функция для создания новой векторной базы знаний
 def create_db(source_chunks, embeddings, db_file_name):
-  # Function to create FAISS vector database from document chunks
     start_time = time.time()
     logger.debug('create_db............')
     db = FAISS.from_documents(source_chunks, embeddings)
@@ -88,7 +81,7 @@ def create_db(source_chunks, embeddings, db_file_name):
     logger.debug(f'create_db elapsed_time = {elapsed_time} sec')
     return db
 
-# Function for loading an existing Vector Knowledge Base
+# Функция для загрузки существующей векторной базы знаний
 def load_db(db_file_name, embeddings):
   logger.debug('load_db............')
   start_time = time.time()
@@ -122,24 +115,3 @@ def split_text(text, max_length):
     return '\n'.join(result)  # Return the result by concatenating the strings with a newline character.
 
 
-def get_message_content_ensemble(topic, db, source_chunks, k):
-  logger.debug('get_message_content_ensemble............')
-  start_time = time.time()
-  logger.debug(f'topic={topic}')
-  faiss_retriever = db.as_retriever(search_kwargs={"k": k})
-  bm25_retriever = BM25Retriever.from_documents(source_chunks)
-  bm25_retriever.k = k
-  ensemble_retriever = EnsembleRetriever(retrievers=[bm25_retriever, faiss_retriever],
-                                         weights=[0.5, 0.5])
-
-  docs = ensemble_retriever.get_relevant_documents(topic)
-
-  message_content = re.sub(r'\n{2}', ' ', '\n '.join(
-    [f'\n#### {i + 1} Relevant chunk ####\n' + str(doc.metadata) + '\n' + split_text(doc.page_content, 80) + '\n' for
-     i, doc in
-     enumerate(docs)]))
-  logger.debug(f'message_content={message_content}')
-  end_time = time.time()
-  elapsed_time = end_time - start_time
-  logger.debug(f'get_message_content_ensemble elapsed_time = {elapsed_time} sec')
-  return message_content
