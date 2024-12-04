@@ -2,7 +2,7 @@
 Полностью локальная версия для использование вместе с LM Studio
 Используется:
 - LLM: `bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf`
-- Embeddings: 'intfloat/multilingual-e5-large'
+- Embeddings: `intfloat/multilingual-e5-large`
 
 ![LM_Studio_01.png](Images/LM_Studio_01.png)
 
