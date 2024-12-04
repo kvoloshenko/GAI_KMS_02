@@ -1,4 +1,4 @@
-from Agents import ask_agent
+from Knowledge_Base_Router import get_responce
 import streamlit as st
 
 from loguru import logger
@@ -6,20 +6,11 @@ from loguru import logger
 # Настройка логирования с использованием loguru
 logger.add("Log/st.log", format="{time} {level} {message}", level="DEBUG", rotation="100 KB", compression="zip")
 
-#TODO
-# @st.cache_data
-# def load_all():
-#     dir = 'pdf'
-#     # db_file_name = 'db/db_systems_analyst'
-#     db_file_name = 'db/db_sa_ml'
-#     db = get_index_db(dir, db_file_name)
-#     logger.debug('Данные загружены')
-#     return db
 
 # Функция получения ответа от агента
 def get_model_response(q):
 
-    r = ask_agent(q)
+    r = get_responce(q)
     response = q + "\n" + r
     return response
 
