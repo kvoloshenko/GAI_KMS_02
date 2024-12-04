@@ -1,0 +1,44 @@
+@startuml
+hide Footbox
+
+actor User
+participant "st.py" as ST
+participant "Knowledge_Base_Router.py" as Router
+participant "SimpyRAG.py" as SimpyRAG
+participant "AI_Tools.py" as AITools
+participant "langchain_openai" as ChatOpenAI
+
+User -> ST: Enter question
+ST -> ST: Capture input
+ST -> Router: get_model_response(question)
+
+Router -> Router: get_route(question)
+Router -> ChatOpenAI: route_question = llm.invoke(question)
+ChatOpenAI -> Router: source (json)
+
+Router -> Router: get_responce(question)
+alt source == "confluence"
+    Router -> SimpyRAG: process_question(question, db_file_name = 'DB_Confluence', system_message)
+else source == 'jira'
+    Router -> SimpyRAG: process_question(question, db_file_name = 'DB_Jira', system_message)
+else source == 'git'
+    Router -> SimpyRAG: process_question(question, db_file_name = 'Git_Kind_Doctor', system_message)
+else
+    Router -> Router: "На этот вопрос нет ответа"
+end
+
+SimpyRAG -> AITools: tls.load_db(db_file_name, embeddings)
+SimpyRAG -> AITools: tls.get_embeddings()
+
+SimpyRAG -> SimpyRAG: get_message_content(question)
+SimpyRAG -> AITools: index_db.similarity_search(topic, k=num_chunks)
+SimpyRAG -> AITools: tls.gpt_request(user_content, system_message)
+
+AITools -> ChatOpenAI: Create Chat
+ChatOpenAI -> SimpyRAG: LLM response
+SimpyRAG -> Router: response
+
+Router -> ST: Return response
+ST -> User: Display response
+
+@enduml
