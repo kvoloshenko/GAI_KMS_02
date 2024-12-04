@@ -438,3 +438,155 @@ Documentation", "id": "282093794", "source":
 
 Если у вас есть еще какие-либо вопросы или потребности по установке Moon Flight System или использованию его API, я могу помочь.
 2024-11-28T17:43:10.174609+0300 DEBUG 22_RAG_Confluence elapsed_time = 5.359546422958374 sec
+2024-12-03T17:48:51.428278+0300 DEBUG 22_RAG_Confluence............
+2024-12-03T17:48:51.428278+0300 DEBUG get_message_content_ensemble............
+2024-12-03T17:48:51.428278+0300 DEBUG topic=Как установить Moon Flight System? Дай мне информацию из документации.
+2024-12-03T17:48:57.163126+0300 DEBUG message_content=
+#### 1 Relevant chunk ####
+{'title': 'Release Notes', 'id': '282083993', 'source': 'https://moonflightsystem.com/docs/282083993'}
+Инструкции по установке: распакуйте файл MFS-2024.1.zip, запустите сценарий
+установки с привилегиями sudo. Следуйте инструкциям, чтобы завершить процесс
+установки.  
+#### 2 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "API Reference: Moon Flight System offers a comprehensive API
+with endpoints for mission planning, trajectory calculation, system status, user
+management, and data retrieval." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282086881", "source":
+"https://moonflightsystem.com/docs/282086881" },  
+#### 3 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "API Reference: Moon Flight System offers a comprehensive API
+with endpoints for mission planning, trajectory calculation, system status, user
+management, and data retrieval." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282090796", "source":
+"https://moonflightsystem.com/docs/282090796" },  
+#### 4 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "API Reference: Moon Flight System offers a comprehensive API
+with endpoints for mission planning, trajectory calculation, system status, user
+management, and data retrieval." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282093794", "source":
+"https://moonflightsystem.com/docs/282093794" },
+
+2024-12-03T17:48:57.163126+0300 DEBUG get_message_content_ensemble elapsed_time = 5.734848260879517 sec
+2024-12-03T17:48:57.178751+0300 DEBUG gpt_request............
+2024-12-03T17:48:57.178751+0300 DEBUG user_content=Как установить Moon Flight System? Дай мне информацию из документации.. The data is here: 
+#### 1 Relevant chunk ####
+{'title': 'Release Notes', 'id': '282083993', 'source': 'https://moonflightsystem.com/docs/282083993'}
+Инструкции по установке: распакуйте файл MFS-2024.1.zip, запустите сценарий
+установки с привилегиями sudo. Следуйте инструкциям, чтобы завершить процесс
+установки.  
+#### 2 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "API Reference: Moon Flight System offers a comprehensive API
+with endpoints for mission planning, trajectory calculation, system status, user
+management, and data retrieval." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282086881", "source":
+"https://moonflightsystem.com/docs/282086881" },  
+#### 3 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "API Reference: Moon Flight System offers a comprehensive API
+with endpoints for mission planning, trajectory calculation, system status, user
+management, and data retrieval." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282090796", "source":
+"https://moonflightsystem.com/docs/282090796" },  
+#### 4 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "API Reference: Moon Flight System offers a comprehensive API
+with endpoints for mission planning, trajectory calculation, system status, user
+management, and data retrieval." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282093794", "source":
+"https://moonflightsystem.com/docs/282093794" },
+
+2024-12-03T17:48:57.178751+0300 DEBUG system_content=You are a useful assistant.
+    You have data on the necessary docs in Confluence.
+2024-12-03T17:49:02.397108+0300 DEBUG gpt_request = 5.218357563018799 sec
+2024-12-03T17:49:02.397108+0300 DEBUG response=По данным из Confluence, чтобы установить Moon Flight System, вам необходимо:
+
+1. Распаковать файл `MFS-2024.1.zip`.
+2. Запустить сценарий установки с privilегиями `sudo`.
+
+Кроме того, в документации есть ссылки на другие ресурсы, которые могут быть полезны при установке и использовании Moon Flight System:
+
+* Release Notes: {id: '282083993', source: 'https://moonflightsystem.com/docs/282083993'}
+* Moon Flight System Documentation: {id: '282086881', source: 'https://moonflightsystem.com/docs/282086881'}
+
+Если вам необходимо больше информации или подробных инструкций по установке и использованию Moon Flight System, я могу помочь вам найти ее в dokumentации.
+2024-12-03T17:49:02.397108+0300 DEBUG 22_RAG_Confluence elapsed_time = 10.968830347061157 sec
+2024-12-04T07:54:30.284252+0300 DEBUG 22_RAG_Confluence............
+2024-12-04T07:54:30.284252+0300 DEBUG get_message_content_ensemble............
+2024-12-04T07:54:30.284252+0300 DEBUG topic=Как установить Moon Flight System? Дай мне информацию из документации.
+2024-12-04T07:54:34.175129+0300 DEBUG message_content=
+#### 1 Relevant chunk ####
+{'title': 'Release Notes', 'id': '282083993', 'source': 'https://moonflightsystem.com/docs/282083993'}
+Инструкции по установке: распакуйте файл MFS-2024.1.zip, запустите сценарий
+установки с привилегиями sudo. Следуйте инструкциям, чтобы завершить процесс
+установки.  
+#### 2 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "API Reference: Moon Flight System offers a comprehensive API
+with endpoints for mission planning, trajectory calculation, system status, user
+management, and data retrieval." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282086881", "source":
+"https://moonflightsystem.com/docs/282086881" },  
+#### 3 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "API Reference: Moon Flight System offers a comprehensive API
+with endpoints for mission planning, trajectory calculation, system status, user
+management, and data retrieval." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282090796", "source":
+"https://moonflightsystem.com/docs/282090796" },  
+#### 4 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "API Reference: Moon Flight System offers a comprehensive API
+with endpoints for mission planning, trajectory calculation, system status, user
+management, and data retrieval." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282093794", "source":
+"https://moonflightsystem.com/docs/282093794" },
+
+2024-12-04T07:54:34.175129+0300 DEBUG get_message_content_ensemble elapsed_time = 3.8908772468566895 sec
+2024-12-04T07:54:34.190755+0300 DEBUG gpt_request............
+2024-12-04T07:54:34.190755+0300 DEBUG user_content=Как установить Moon Flight System? Дай мне информацию из документации.. The data is here: 
+#### 1 Relevant chunk ####
+{'title': 'Release Notes', 'id': '282083993', 'source': 'https://moonflightsystem.com/docs/282083993'}
+Инструкции по установке: распакуйте файл MFS-2024.1.zip, запустите сценарий
+установки с привилегиями sudo. Следуйте инструкциям, чтобы завершить процесс
+установки.  
+#### 2 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "API Reference: Moon Flight System offers a comprehensive API
+with endpoints for mission planning, trajectory calculation, system status, user
+management, and data retrieval." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282086881", "source":
+"https://moonflightsystem.com/docs/282086881" },  
+#### 3 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "API Reference: Moon Flight System offers a comprehensive API
+with endpoints for mission planning, trajectory calculation, system status, user
+management, and data retrieval." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282090796", "source":
+"https://moonflightsystem.com/docs/282090796" },  
+#### 4 Relevant chunk ####
+{'source': './Dataset/moon_flight_system_data_10k.json'}
+"page_content": "API Reference: Moon Flight System offers a comprehensive API
+with endpoints for mission planning, trajectory calculation, system status, user
+management, and data retrieval." }, { "metadata": { "title": "Moon Flight System
+Documentation", "id": "282093794", "source":
+"https://moonflightsystem.com/docs/282093794" },
+
+2024-12-04T07:54:34.190755+0300 DEBUG system_content=You are a useful assistant.
+    You have data on the necessary docs in Confluence.
+2024-12-04T07:54:37.784252+0300 DEBUG gpt_request = 3.593496799468994 sec
+2024-12-04T07:54:37.784252+0300 DEBUG response=Чтобы установить Moon Flight System, необходимо выполнить следующие шаги:
+
+1. Распакуйте файл MFS-2024.1.zip.
+2. Запустите сценарий установки с привилегиями sudo.
+
+Остальное described в документации, которую можно найти по ссылкам в chunk'ах: 
+
+* Release Notes (282083993)
+* Moon Flight System Documentation (282086881, 282090796, 282093794)
+
+В документации описаны все остальные шаги и details installation.
+2024-12-04T07:54:37.784252+0300 DEBUG 22_RAG_Confluence elapsed_time = 7.499999523162842 sec

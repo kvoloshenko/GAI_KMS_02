@@ -74,7 +74,7 @@ def get_embeddings(type='cpu'):
 # embeddings = get_embeddings(type='cuda')
 
 # Getting Embeddings
-embeddings = get_embeddings()
+# embeddings = get_embeddings()
 
 # Function for creating a new Vector Knowledge Base
 def create_db(source_chunks, embeddings, db_file_name):

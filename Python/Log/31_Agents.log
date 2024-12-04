@@ -382,3 +382,199 @@ Here are 5 sample tickets:
 * **Project Name**: Lunar Habitat Module (LHM) - Integration with MFS
 
 Please let me know if you need more information or if there's anything else I can help you with!
+2024-12-03T17:46:38.553389+0300 DEBUG 31_Agents............
+2024-12-03T17:46:38.553389+0300 DEBUG ask_agent............
+2024-12-03T17:46:38.553389+0300 DEBUG question = Give me tickets related to Moon Flight System. I need Ticket id, Summary and Project name.
+2024-12-03T17:46:38.553389+0300 DEBUG agent............
+2024-12-03T17:46:46.725283+0300 DEBUG ask_agent elapsed_time = 8.171894550323486 sec
+2024-12-03T17:46:46.725283+0300 DEBUG I'm happy to provide you with some sample data on ticket-related information for the "Moon Flight System". Please note that this is not actual data from a real system, but rather fictional examples.
+
+Here are 5 sample tickets:
+
+**Ticket 1**
+
+* **Ticket ID**: MF-001
+* **Summary**: Lunar Lander Engine Failure - Investigation and Repair
+* **Project Name**: Moon Flight System (MFS)
+
+**Ticket 2**
+
+* **Ticket ID**: MF-002
+* **Summary**: Communication Array Malfunction - Repair and Testing
+* **Project Name**: Moon Flight System (MFS)
+
+**Ticket 3**
+
+* **Ticket ID**: MF-003
+* **Summary**: Life Support System Leak Detection and Repair
+* **Project Name**: Lunar Habitat Module (LHM) - Integration with MFS
+
+**Ticket 4**
+
+* **Ticket ID**: MF-004
+* **Summary**: Navigation System Glitch - Software Update and Testing
+* **Project Name**: Moon Flight System (MFS)
+
+**Ticket 5**
+
+* **Ticket ID**: MF-005
+* **Summary**: Crew Quarters Airlock Failure - Repair and Inspection
+* **Project Name**: Lunar Habitat Module (LHM) - Integration with MFS
+
+Please let me know if you need more information or if there's anything else I can help you with!
+2024-12-03T17:46:46.725283+0300 DEBUG ask_agent............
+2024-12-03T17:46:46.725283+0300 DEBUG question = How to install Moon Flight System? Give me the main details
+2024-12-03T17:46:46.725283+0300 DEBUG agent............
+2024-12-03T17:46:57.115789+0300 DEBUG ask_agent elapsed_time = 10.390506267547607 sec
+2024-12-03T17:46:57.115789+0300 DEBUG I couldn't find any information on a "Moon Flight System" that I can provide instructions for installing. It's possible that it's a fictional or hypothetical system, or it may be a real system that is not widely known or documented.
+
+However, if you're interested in learning about spaceflight systems or lunar missions, I'd be happy to provide general information on the topic. Alternatively, if you could provide more context or clarify what you mean by "Moon Flight System", I'll do my best to assist you.
+
+That being said, here are some general steps that might be involved in installing a hypothetical Moon Flight System:
+
+**Please note: These steps are purely speculative and not based on any real-world system.**
+
+1. **System Design**: Define the requirements and specifications of the Moon Flight System, including its purpose, functionality, and performance characteristics.
+2. **Hardware Selection**: Choose the necessary hardware components, such as propulsion systems, life support systems, communication equipment, and navigation systems.
+3. **Integration**: Integrate the selected hardware components into a single system, ensuring that they work together seamlessly.
+4. **Testing**: Conduct thorough testing of the Moon Flight System to ensure its safety, reliability, and performance.
+5. **Launch Preparation**: Prepare the launch vehicle and payload fairing for the mission, including integration with the Moon Flight System.
+6. **Lunar Orbit Insertion**: Perform a lunar orbit insertion maneuver using the propulsion system, ensuring that the spacecraft reaches the desired orbit around the Moon.
+7. **Descent and Landing**: Use the propulsion system to descend to the lunar surface, followed by a controlled landing.
+
+Again, please note that these steps are purely speculative and not based on any real-world system. If you have any further questions or would like more information on spaceflight systems, feel free to ask!
+2024-12-03T17:46:57.131417+0300 DEBUG ask_agent............
+2024-12-03T17:46:57.131417+0300 DEBUG question = I'm looking for where in the source code was defined the file name where is the prompt
+2024-12-03T17:46:57.131417+0300 DEBUG agent............
+2024-12-03T17:46:59.615815+0300 DEBUG ask_agent elapsed_time = 2.4843974113464355 sec
+2024-12-03T17:46:59.615815+0300 DEBUG However, I don't see any source code provided. Could you please share the source code with me? Additionally, could you clarify which programming language and framework it's written in?
+
+If you're referring to a specific prompt or input field in your application, I can try to help you identify where its file name is defined.
+
+Please provide more context or details about the project, and I'll do my best to assist you.
+2024-12-03T17:53:50.725231+0300 DEBUG 31_Agents............
+2024-12-03T17:53:50.725231+0300 DEBUG ask_agent............
+2024-12-03T17:53:50.725231+0300 DEBUG question = Give me tickets related to Moon Flight System. I need Ticket id, Summary and Project name.
+2024-12-03T17:53:50.725231+0300 DEBUG agent............
+2024-12-03T17:53:58.881439+0300 DEBUG ask_agent elapsed_time = 8.156208038330078 sec
+2024-12-03T17:53:58.881439+0300 DEBUG I'm happy to provide you with some sample data on ticket-related information for the "Moon Flight System". Please note that this is not actual data from a real system, but rather fictional examples.
+
+Here are 5 sample tickets:
+
+**Ticket 1**
+
+* **Ticket ID**: MF-001
+* **Summary**: Lunar Lander Engine Failure - Investigation and Repair
+* **Project Name**: Moon Flight System (MFS)
+
+**Ticket 2**
+
+* **Ticket ID**: MF-002
+* **Summary**: Communication Array Malfunction - Repair and Testing
+* **Project Name**: Moon Flight System (MFS)
+
+**Ticket 3**
+
+* **Ticket ID**: MF-003
+* **Summary**: Life Support System Leak Detection and Repair
+* **Project Name**: Lunar Habitat Module (LHM) - Integration with MFS
+
+**Ticket 4**
+
+* **Ticket ID**: MF-004
+* **Summary**: Navigation System Glitch - Software Update and Testing
+* **Project Name**: Moon Flight System (MFS)
+
+**Ticket 5**
+
+* **Ticket ID**: MF-005
+* **Summary**: Crew Quarters Airlock Failure - Repair and Inspection
+* **Project Name**: Lunar Habitat Module (LHM) - Integration with MFS
+
+Please let me know if you need more information or if there's anything else I can help you with!
+2024-12-03T17:53:58.881439+0300 DEBUG ask_agent............
+2024-12-03T17:53:58.881439+0300 DEBUG question = How to install Moon Flight System? Give me the main details
+2024-12-03T17:53:58.897066+0300 DEBUG agent............
+2024-12-03T17:54:09.459565+0300 DEBUG ask_agent elapsed_time = 10.578125953674316 sec
+2024-12-03T17:54:09.459565+0300 DEBUG I couldn't find any information on a "Moon Flight System" that I can provide instructions for installing. It's possible that it's a fictional or hypothetical system, or it may be a real system that is not widely known or documented.
+
+However, if you're interested in learning about spaceflight systems or lunar missions, I'd be happy to provide general information on the topic. Alternatively, if you could provide more context or clarify what you mean by "Moon Flight System", I'll do my best to assist you.
+
+That being said, here are some general steps that might be involved in installing a hypothetical Moon Flight System:
+
+**Please note: These steps are purely speculative and not based on any real-world system.**
+
+1. **System Design**: Define the requirements and specifications of the Moon Flight System, including its purpose, functionality, and performance characteristics.
+2. **Hardware Selection**: Choose the necessary hardware components, such as propulsion systems, life support systems, communication equipment, and navigation systems.
+3. **Integration**: Integrate the selected hardware components into a single system, ensuring that they work together seamlessly.
+4. **Testing**: Conduct thorough testing of the Moon Flight System to ensure its safety, reliability, and performance.
+5. **Launch Preparation**: Prepare the launch vehicle and payload fairing for the mission, including integration with the Moon Flight System.
+6. **Lunar Orbit Insertion**: Perform a lunar orbit insertion maneuver using the propulsion system, ensuring that the spacecraft reaches the desired orbit around the Moon.
+7. **Descent and Landing**: Use the propulsion system to descend to the lunar surface, followed by a controlled landing.
+
+Again, please note that these steps are purely speculative and not based on any real-world system. If you have any further questions or would like more information on spaceflight systems, feel free to ask!
+2024-12-03T17:54:09.459565+0300 DEBUG ask_agent............
+2024-12-03T17:54:09.459565+0300 DEBUG question = I'm looking for where in the source code was defined the file name where is the prompt
+2024-12-03T17:54:09.459565+0300 DEBUG agent............
+2024-12-03T17:54:11.912657+0300 DEBUG ask_agent elapsed_time = 2.453091859817505 sec
+2024-12-03T17:54:11.912657+0300 DEBUG However, I don't see any source code provided. Could you please share the source code with me? Additionally, could you clarify which programming language and framework it's written in?
+
+If you're referring to a specific prompt or input field in your application, I can try to help you identify where its file name is defined.
+
+Please provide more context or details about the project, and I'll do my best to assist you.
+2024-12-03T17:56:08.507092+0300 DEBUG 31_Agents............
+2024-12-03T17:56:08.507092+0300 DEBUG ask_agent............
+2024-12-03T17:56:08.507092+0300 DEBUG question = Give me tickets related to Moon Flight System. I need Ticket id, Summary and Project name.
+2024-12-03T17:56:08.507092+0300 DEBUG agent............
+2024-12-03T17:56:16.725192+0300 DEBUG ask_agent elapsed_time = 8.218100309371948 sec
+2024-12-03T17:56:16.725192+0300 DEBUG I'm happy to provide you with some sample data on ticket-related information for the "Moon Flight System". Please note that this is not actual data from a real system, but rather fictional examples.
+
+Here are 5 sample tickets:
+
+**Ticket 1**
+
+* **Ticket ID**: MF-001
+* **Summary**: Lunar Lander Engine Failure - Investigation and Repair
+* **Project Name**: Moon Flight System (MFS)
+
+**Ticket 2**
+
+* **Ticket ID**: MF-002
+* **Summary**: Communication Array Malfunction - Repair and Testing
+* **Project Name**: Moon Flight System (MFS)
+
+**Ticket 3**
+
+* **Ticket ID**: MF-003
+* **Summary**: Life Support System Leak Detection and Repair
+* **Project Name**: Lunar Habitat Module (LHM) - Integration with MFS
+
+**Ticket 4**
+
+* **Ticket ID**: MF-004
+* **Summary**: Navigation System Glitch - Software Update and Testing
+* **Project Name**: Moon Flight System (MFS)
+
+**Ticket 5**
+
+* **Ticket ID**: MF-005
+* **Summary**: Crew Quarters Airlock Failure - Repair and Inspection
+* **Project Name**: Lunar Habitat Module (LHM) - Integration with MFS
+
+Please let me know if you need more information or if there's anything else I can help you with!
+2024-12-03T17:56:16.725192+0300 DEBUG ask_agent............
+2024-12-03T17:56:16.725192+0300 DEBUG question = Как установить Moon Flight System? Дай мне информацию из документации.
+2024-12-03T17:56:16.725192+0300 DEBUG agent............
+2024-12-03T17:56:19.068926+0300 DEBUG ask_agent elapsed_time = 2.343733310699463 sec
+2024-12-03T17:56:19.068926+0300 DEBUG Я не могу предоставлять информацию о установке Moon Flight System, поскольку это не существует реального продукта или системы. Возможно, вы имеете в виду some иконку или игровой мод для игры "Мoon Flight" или что-то другое.
+
+Если вы можете предоставить больше контекста или информации о Moon Flight System, я могу попытаться помочь вам.
+2024-12-03T17:56:19.068926+0300 DEBUG ask_agent............
+2024-12-03T17:56:19.068926+0300 DEBUG question = I'm looking for where in the source code was defined the file name where is the prompt
+2024-12-03T17:56:19.068926+0300 DEBUG agent............
+2024-12-03T17:56:21.506455+0300 DEBUG ask_agent elapsed_time = 2.4375290870666504 sec
+2024-12-03T17:56:21.506455+0300 DEBUG However, I don't see any source code provided. Could you please share the source code with me? Additionally, could you clarify which programming language and framework it's written in?
+
+If you're referring to a specific prompt or input field in your application, I can try to help you identify where its file name is defined.
+
+Please provide more context or details about the project, and I'll do my best to assist you.
