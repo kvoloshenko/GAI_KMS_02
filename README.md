@@ -1,6 +1,7 @@
 # GAI_KMS_02
-Полностью локальная версия для использование вместе с LM Studio
+Полностью локальная версия!
 Используется:
+- LM Studio: https://lmstudio.ai/
 - LLM: `bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-f16.gguf`
 - Embeddings: `intfloat/multilingual-e5-large`
 
